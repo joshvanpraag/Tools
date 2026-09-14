@@ -1,0 +1,21 @@
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Cinema 4D
+*.c4d.bak
+*.c4d~
+
+# After Effects
+*.aep.bak
+Adobe After Effects Auto-Save/
+
+# Windows build artifacts
+*.exe.obj
+bin/
+obj/

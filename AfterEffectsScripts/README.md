@@ -1,15 +1,15 @@
 # After Effects Scripts
 
-- [Hex Swap](#hex-swap) — `Hex Swap.jsx`
+- [Hex Swap](#hex-swap) — `HexSwap.jsx`
 - [Depth Range Slice](#depth-range-slice) — `DepthRangeSlice.jsx`
 
 ## Hex Swap
 
-`Hex Swap.jsx`
+`HexSwap.jsx`
 
 Dockable ScriptUI panel that finds colors by hex code across a project (or across the comps/folders selected in the Project panel) and swaps them in bulk.
 
-![Hex Swap UI](Hex%20Swap.png)
+![Hex Swap UI](HexSwap.png)
 
 **What it does**
 
@@ -22,7 +22,7 @@ Dockable ScriptUI panel that finds colors by hex code across a project (or acros
 
 **Install**
 
-Copy `Hex Swap.jsx` to `<After Effects>/Support Files/Scripts/ScriptUI Panels/`, restart AE, then open it from **Window > Hex Swap.jsx**. For **Copy**, **Save**, and **Load** to work, enable Preferences → Scripting & Expressions → "Allow Scripts to Write Files and Access Network".
+Copy `HexSwap.jsx` to `<After Effects>/Support Files/Scripts/ScriptUI Panels/`, restart AE, then open it from **Window > HexSwap.jsx**. For **Copy**, **Save**, and **Load** to work, enable Preferences → Scripting & Expressions → "Allow Scripts to Write Files and Access Network".
 
 **Usage**
 
@@ -30,7 +30,7 @@ Copy `Hex Swap.jsx` to `<After Effects>/Support Files/Scripts/ScriptUI Panels/`,
 2. Run **2 Scan** to see what hex colors exist, or paste/build a swap list under **3 Swap**.
 3. Click **Preview** to review the report, then **Apply Swaps** to commit.
 
-Built and tested on After Effects 26.3 (Windows). See [Hex Swap - Developer Notes.md](Hex%20Swap%20-%20Developer%20Notes.md) for the internal code map, AE quirks discovered during development, and a testing hook — useful reading before extending the script.
+Built and tested on After Effects 26.3 (Windows). See [HexSwapDeveloperNotes.md](HexSwapDeveloperNotes.md) for the internal code map, AE quirks discovered during development, and a testing hook — useful reading before extending the script.
 
 ## Depth Range Slice
 
@@ -54,6 +54,6 @@ Copy `DepthRangeSlice.jsx` to `<After Effects>/Support Files/Scripts/ScriptUI Pa
 
 **Usage**
 
-1. Render or import a depth pass (e.g. a Redshift/Arnold/V-Ray Z-depth AOV — see [AOV Set Depth](../Cinema%204D%20Scenes/README.md#aov-set-depth) for an example Redshift setup) as a layer.
+1. Render or import a depth pass (e.g. a Redshift/Arnold/V-Ray Z-depth AOV — see [AOV Set Depth](../Cinema4DScenes/README.md#aov-set-depth) for an example Redshift setup) as a layer.
 2. Select the layer(s) and click **Apply to Selected Layer(s)**.
 3. Adjust Lower/Upper Grey to set the band width and position, then animate `Offset` (or use the Sweep buttons).

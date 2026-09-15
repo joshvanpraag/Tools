@@ -2,16 +2,16 @@
 
 A handoff document for future changes. To pick this up in a new AI session (Atom or another assistant), say:
 
-> "Read `Hex Swap/DEVELOPER NOTES.md` and `Hex Swap/Hex Swap.jsx`, then help me change …"
+> "Read `AfterEffectsScripts/HexSwapDeveloperNotes.md` and `AfterEffectsScripts/HexSwap.jsx`, then help me change …"
 
 ---
 
 ## What it is
 A dockable ScriptUI panel for After Effects. It finds colors by hex code across a project, or across the comps selected in the Project panel, and swaps them in bulk.
 
-- File: `Hex Swap.jsx` (a single file with no dependencies)
+- File: `HexSwap.jsx` (a single file with no dependencies)
 - Built and tested on: **After Effects 26.3** (Windows)
-- Install: copy the file to `C:\Program Files\Adobe\Adobe After Effects <version>\Support Files\Scripts\ScriptUI Panels\`, restart AE, then open **Window → Hex Swap.jsx**
+- Install: copy the file to `C:\Program Files\Adobe\Adobe After Effects <version>\Support Files\Scripts\ScriptUI Panels\`, restart AE, then open **Window → HexSwap.jsx**
 - Copy, Save and Load need: Settings (Preferences) → Scripting & Expressions → "Allow Scripts to Write Files and Access Network"
 
 ## Requirements agreed with the user
@@ -26,7 +26,7 @@ A dockable ScriptUI panel for After Effects. It finds colors by hex code across 
 9. **Persistence:** every setting and the swap list save automatically, and there's a **Reset to Defaults** button.
 10. **Apply does NOT open a report window**; it only updates the status line. The user opens **Last Report** when needed. (Preview still opens its report.)
 
-## Code map (`Hex Swap.jsx`)
+## Code map (`HexSwap.jsx`)
 | Section | What's there |
 |---|---|
 | `CATS` | Category definitions (key, checkbox label, short name `abbr`, UI group, tooltip). Add new categories here. |

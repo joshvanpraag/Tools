@@ -1,14 +1,14 @@
 # Cinema 4D Scenes
 
-- [AOV Set Depth](#aov-set-depth) — `aov_set_depth.c4d`
+- [AOV Set Depth](#aov-set-depth) — `AOVSetDepth.c4d`
 
 ## AOV Set Depth
 
-`aov_set_depth.c4d`
+`AOVSetDepth.c4d`
 
-Reference scene showing a correctly configured Redshift **Depth AOV** for use with depth-based compositing tools (e.g. [Depth Range Slice](../After%20Effects%20Scripts/README.md#depth-range-slice)).
+Reference scene showing a correctly configured Redshift **Depth AOV** for use with depth-based compositing tools (e.g. [Depth Range Slice](../AfterEffectsScripts/README.md#depth-range-slice)).
 
-![Depth AOV setup in Redshift](aov_set_depth.png)
+![Depth AOV setup in Redshift](AOVSetDepth.png)
 
 **What it shows**
 

@@ -1,14 +1,14 @@
 # Windows Programs
 
-- [Hex Bench](#hex-bench) — `hex_bench.exe`
+- [Hex Bench](#hex-bench) — `HexBench.exe`
 
 ## Hex Bench
 
-`hex_bench.exe`
+`HexBench.exe`
 
 Small Windows utility for converting sRGB hex color codes to linear-light values.
 
-![Hex Bench UI](hex_bench.png)
+![Hex Bench UI](HexBench.png)
 
 **What it does**
 
@@ -16,4 +16,4 @@ Paste one or more sRGB hex codes (`#RGB` or `#RRGGBB`, separated by spaces/comma
 
 **Usage**
 
-Run `hex_bench.exe`, paste your hex code(s) into the input box, and read the converted linear hex + float values below. Click **Copy** to grab a result.
+Run `HexBench.exe`, paste your hex code(s) into the input box, and read the converted linear hex + float values below. Click **Copy** to grab a result.

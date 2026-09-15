@@ -5,7 +5,7 @@
     INSTALL
       Windows: C:\Program Files\Adobe\Adobe After Effects <version>\Support Files\Scripts\ScriptUI Panels\
       macOS:   /Applications/Adobe After Effects <version>/Scripts/ScriptUI Panels/
-      Restart After Effects, then open it from the Window menu > Hex Swap.jsx
+      Restart After Effects, then open it from the Window menu > HexSwap.jsx
 
       Copy / Save / Load need: Settings (Preferences) > Scripting & Expressions >
       "Allow Scripts to Write Files and Access Network".

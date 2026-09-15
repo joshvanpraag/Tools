@@ -1,6 +1,10 @@
 # Windows Programs
 
-## hex_bench.exe — Hex Bench
+- [Hex Bench](#hex-bench) — `hex_bench.exe`
+
+## Hex Bench
+
+`hex_bench.exe`
 
 Small Windows utility for converting sRGB hex color codes to linear-light values.
 

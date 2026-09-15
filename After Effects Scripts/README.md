@@ -1,6 +1,11 @@
 # After Effects Scripts
 
-## Hex Swap.jsx
+- [Hex Swap](#hex-swap) — `Hex Swap.jsx`
+- [Depth Range Slice](#depth-range-slice) — `DepthRangeSlice.jsx`
+
+## Hex Swap
+
+`Hex Swap.jsx`
 
 Dockable ScriptUI panel that finds colors by hex code across a project (or across the comps/folders selected in the Project panel) and swaps them in bulk.
 
@@ -27,7 +32,9 @@ Copy `Hex Swap.jsx` to `<After Effects>/Support Files/Scripts/ScriptUI Panels/`,
 
 Built and tested on After Effects 26.3 (Windows). See [Hex Swap - Developer Notes.md](Hex%20Swap%20-%20Developer%20Notes.md) for the internal code map, AE quirks discovered during development, and a testing hook — useful reading before extending the script.
 
-## DepthRangeSlice.jsx
+## Depth Range Slice
+
+`DepthRangeSlice.jsx`
 
 ScriptUI panel that turns a rendered depth pass into an animated reveal/slice effect.
 
@@ -47,6 +54,6 @@ Copy `DepthRangeSlice.jsx` to `<After Effects>/Support Files/Scripts/ScriptUI Pa
 
 **Usage**
 
-1. Render or import a depth pass (e.g. a Redshift/Arnold/V-Ray Z-depth AOV — see [aov_set_depth.c4d](../Cinema%204D%20Scenes/) for an example Redshift setup) as a layer.
+1. Render or import a depth pass (e.g. a Redshift/Arnold/V-Ray Z-depth AOV — see [AOV Set Depth](../Cinema%204D%20Scenes/README.md#aov-set-depth) for an example Redshift setup) as a layer.
 2. Select the layer(s) and click **Apply to Selected Layer(s)**.
 3. Adjust Lower/Upper Grey to set the band width and position, then animate `Offset` (or use the Sweep buttons).

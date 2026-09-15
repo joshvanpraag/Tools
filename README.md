@@ -2,19 +2,25 @@
 
 A collection of tools created for use in Cinema 4D, After Effects, and other design software.
 
-## Categories
+Each category below is a folder containing every tool for that category as loose files, with one README per folder documenting all of them. Click a tool name to jump straight to its writeup.
 
-- **Cinema 4D Scenes** — `.c4d` project/scene files
-- **Cinema 4D Scripts** — Python scripts, generators, and plugins for Cinema 4D
-- **After Effects Scripts** — ExtendScript (`.jsx`/`.jsxbin`) and plugin tools for After Effects
-- **After Effects Scenes** — `.aep` project files and templates
-- **Windows Programs** — standalone Windows utilities and tools
+## After Effects Scripts
 
-## Tools
+- [Hex Swap](After%20Effects%20Scripts/README.md#hex-swap) — bulk find & replace hex colors across a project
+- [Depth Range Slice](After%20Effects%20Scripts/README.md#depth-range-slice) — animated depth-pass slice/reveal rig
 
-| Tool | Category | Description |
-|---|---|---|
-| [Hex Swap.jsx](After%20Effects%20Scripts/) | After Effects Scripts | Bulk find & replace hex colors across a project |
-| [DepthRangeSlice.jsx](After%20Effects%20Scripts/) | After Effects Scripts | Animated depth-pass slice/reveal rig |
-| [aov_set_depth.c4d](Cinema%204D%20Scenes/) | Cinema 4D Scenes | Reference scene for a correctly configured Redshift Depth AOV |
-| [hex_bench.exe](Windows%20Programs/) | Windows Programs | sRGB hex → linear-light converter |
+## After Effects Scenes
+
+_Nothing here yet._
+
+## Cinema 4D Scenes
+
+- [AOV Set Depth](Cinema%204D%20Scenes/README.md#aov-set-depth) — reference scene for a correctly configured Redshift Depth AOV
+
+## Cinema 4D Scripts
+
+_Nothing here yet._
+
+## Windows Programs
+
+- [Hex Bench](Windows%20Programs/README.md#hex-bench) — sRGB hex → linear-light converter

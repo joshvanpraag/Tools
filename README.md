@@ -21,7 +21,7 @@ _Nothing here yet._
 
 ## Cinema4DScripts
 
-_Nothing here yet._
+- [Align Parent to Child](Cinema4DScripts/README.md#align-parent-to-child) — re-anchor a parent's pivot to its child without moving the geometry
 
 ## WindowsPrograms
 

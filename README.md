@@ -14,6 +14,7 @@ A collection of tools created for use in Cinema 4D, After Effects, and other des
 
 | Tool | Category | Description |
 |---|---|---|
+| [Hex Swap.jsx](After%20Effects%20Scripts/) | After Effects Scripts | Bulk find & replace hex colors across a project |
 | [DepthRangeSlice.jsx](After%20Effects%20Scripts/) | After Effects Scripts | Animated depth-pass slice/reveal rig |
 | [aov_set_depth.c4d](Cinema%204D%20Scenes/) | Cinema 4D Scenes | Reference scene for a correctly configured Redshift Depth AOV |
 | [hex_bench.exe](Windows%20Programs/) | Windows Programs | sRGB hex → linear-light converter |

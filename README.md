@@ -4,8 +4,6 @@ A collection of tools created for use in Cinema 4D, After Effects, and other des
 
 Each category below is a folder containing every tool for that category as loose files, with one README per folder documenting all of them. Click a tool name to jump straight to its writeup.
 
-Naming convention: PascalCase, no spaces or underscores, for every folder and asset file added going forward (e.g. `HexSwap.jsx`, `AOVSetDepth.c4d`, `AfterEffectsScripts/`) — acronyms like AOV stay uppercase. `README.md` files are the standard exception. Most tools are loose files directly in their category folder; a plugin that requires its own internal directory structure to load (e.g. a Cinema 4D `.pyp` plugin with its `res/` folder) instead gets its own PascalCase subfolder, kept intact as-is.
-
 ## AfterEffectsScripts
 
 - [Hex Swap](AfterEffectsScripts/README.md#hex-swap) — bulk find & replace hex colors across a project

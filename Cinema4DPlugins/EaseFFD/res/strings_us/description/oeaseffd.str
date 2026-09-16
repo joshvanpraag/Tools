@@ -1,0 +1,7 @@
+STRINGTABLE Oeaseffd
+{
+    Oeaseffd             "Ease FFD";
+    EASEFFD_CAGE          "FFD Cage";
+    EASEFFD_EASE          "Ease";
+    ID_OBJECTPROPERTIES   "Object Properties";
+}

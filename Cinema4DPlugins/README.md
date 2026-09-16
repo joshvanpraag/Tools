@@ -1,6 +1,36 @@
 # Cinema 4D Plugins
 
+- [Safe Delete Object](#safe-delete-object) — `SafeDeleteObject/`
 - [Ease FFD](#ease-ffd) — `EaseFFD/`
+
+## Safe Delete Object
+
+`SafeDeleteObject/SafeDeleteObject.pyp` (Python command plugin, no UI)
+
+Adds a **Safe Delete Object** command (under **Extensions**) that checks what else in the scene references the selected object before deleting it, instead of deleting blind.
+
+**What it does**
+
+1. Scans the entire document — every object, every tag, XPresso node graphs, and the active Render Settings (sky/background/foreground/floor/camera links) — for anything that links to the selected object: instances, Boole/Symmetry/Cloner sources, Target/Constraint tags, spline references, and more.
+2. If nothing references it, deletes it immediately.
+3. If something does, shows a confirmation dialog listing every reference by name before deleting anything.
+4. If you cancel, it instead selects the referencing object(s) in the Object Manager so you can see exactly where the object is used.
+5. Children of the deleted object are **not** deleted — they're reparented one level up, matching Cinema's standard "Delete" (not "Delete With Children") behavior, so nothing downstream silently vanishes.
+6. The whole operation (reparenting, render-data changes, the delete itself) is wrapped in one undo step.
+
+**Install**
+
+Drop the whole `SafeDeleteObject` folder into Cinema 4D's plugins directory (**Edit > Preferences > Open Preferences Folder > plugins**), then restart Cinema 4D. It appears as **Safe Delete Object** under **Extensions**.
+
+**Usage**
+
+Select an object and run **Extensions > Safe Delete Object** instead of the regular Delete key when you're not sure what else in the scene might be pointing at it.
+
+**Notes**
+
+- `PLUGIN_ID` in `SafeDeleteObject.pyp` is a personal-use placeholder. If it collides with another installed plugin, Cinema warns in the Console — pick a different ID ≥ 1000000, or register a real one at plugincafe.maxon.net before distributing.
+- XPresso and Take System references are scanned on a best-effort basis — the node-graph scan is wrapped defensively since node internals vary more between Cinema 4D versions than the regular object API. Always double-check the Console after using this on a scene with complex XPresso setups.
+- Render Settings references (e.g. an object set as the Sky or Background object) can't be highlighted in the Object Manager since Render Settings isn't a selectable object — the plugin tells you to check **Edit > Render Settings** directly in that case.
 
 ## Ease FFD
 

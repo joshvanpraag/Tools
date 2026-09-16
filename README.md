@@ -23,6 +23,7 @@ _Nothing here yet._
 
 ## Cinema 4D Plugins
 
+- [Safe Delete Object](Cinema4DPlugins/README.md#safe-delete-object) — checks for scene references and confirms before deleting an object
 - [Ease FFD](Cinema4DPlugins/README.md#ease-ffd) — FFD deformer with an Ease slider that blends sharp/local vs. native smooth interpolation
 
 ## Windows Programs

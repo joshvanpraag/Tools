@@ -8,7 +8,7 @@
 
 Adds an **Ease** slider to a Free-Form Deformation cage that blends between a sharp, local, corner-for-corner deformation and the native FFD's smooth global Bernstein/Bezier result — something stock FFD can't do at any cage density.
 
-![Ease FFD attributes](EaseFFD.png)
+![Ease FFD attributes](EaseFFD/EaseFFD.png)
 
 - **Ease = 0%** — sharp, exactly follows the cage (local trilinear interpolation across the nearest cell)
 - **Ease = 100%** — identical to native FFD (same global Bernstein/Bezier math stock FFD always uses)

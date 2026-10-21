@@ -8,6 +8,7 @@ Each category below is a folder containing every tool for that category as loose
 
 - [Hex Swap](AfterEffectsScripts/README.md#hex-swap) — bulk find & replace hex colors across a project
 - [Depth Range Slice](AfterEffectsScripts/README.md#depth-range-slice) — animated depth-pass slice/reveal rig
+- [Reset Layer Time Offsets](AfterEffectsScripts/README.md#reset-layer-time-offsets) — zero out layer start times while preserving on-screen timing
 
 ## After Effects Scenes
 

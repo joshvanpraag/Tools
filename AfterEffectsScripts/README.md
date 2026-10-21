@@ -2,6 +2,7 @@
 
 - [Hex Swap](#hex-swap) — `HexSwap.jsx`
 - [Depth Range Slice](#depth-range-slice) — `DepthRangeSlice.jsx`
+- [Reset Layer Time Offsets](#reset-layer-time-offsets) — `ResetLayerTimeOffsets.jsx`
 
 ## Hex Swap
 
@@ -57,3 +58,26 @@ Copy `DepthRangeSlice.jsx` to `<After Effects>/Support Files/Scripts/ScriptUI Pa
 1. Render or import a depth pass (e.g. a Redshift/Arnold/V-Ray Z-depth AOV — see [AOV Set Depth](../Cinema4DScenes/README.md#aov-set-depth) for an example Redshift setup) as a layer.
 2. Select the layer(s) and click **Apply to Selected Layer(s)**.
 3. Adjust Lower/Upper Grey to set the band width and position, then animate `Offset` (or use the Sweep buttons).
+
+## Reset Layer Time Offsets
+
+`ResetLayerTimeOffsets.jsx`
+
+No-UI utility script that moves every eligible layer's start time back to 0 and extends its in/out points to fill the comp, without changing the visible timing.
+
+**What it does**
+
+- Keeps every keyframe (and layer marker) at the same comp time it had before the shift, by reading and rewriting all keyed properties around the `startTime` change.
+- Extends the in point to the start of the comp and the out point to the end, then fills the newly-exposed range on visible layers with 0% HOLD opacity keys — hidden before the original in point and after the original out point — so nothing becomes visible outside its original on-screen range.
+- Skips video, image sequences, audio, precomps, cameras, and lights; layers with Time Remap keyframes are processed anyway. Nulls get the time reset but no opacity holds.
+- If a layer has expressions, it's listed in a dialog before running so you can choose to move it, skip it, or cancel — time-based expressions (`time`, `wiggle`, `loopOut`, `inPoint`, etc.) may play differently after the shift.
+- Reports what it did (or skipped, and why) per layer in an alert when finished, wrapped in a single undo group.
+
+**Install**
+
+Run once via **File > Scripts > Run Script File**, or copy `ResetLayerTimeOffsets.jsx` to `<After Effects>/Support Files/Scripts/` and restart AE to run it from **File > Scripts** each time.
+
+**Usage**
+
+1. Select the comp (make it active) and run the script — no selection of individual layers is needed, it scans every layer in the comp.
+2. Review the alert report for any skipped layers or expression warnings.

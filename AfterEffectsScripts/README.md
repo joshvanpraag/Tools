@@ -37,8 +37,7 @@ Built and tested on After Effects 26.3 (Windows). See [HexSwapDeveloperNotes.md]
 <br>
 <br>
 <br>
-
----
+<br>
 
 ## Depth Range Slice
 
@@ -69,8 +68,7 @@ Copy `DepthRangeSlice.jsx` to `<After Effects>/Support Files/Scripts/ScriptUI Pa
 <br>
 <br>
 <br>
-
----
+<br>
 
 ## Reset Layer Time Offsets
 
@@ -98,8 +96,7 @@ Run once via **File > Scripts > Run Script File**, or copy `ResetLayerTimeOffset
 <br>
 <br>
 <br>
-
----
+<br>
 
 ## Comp Standardizer
 

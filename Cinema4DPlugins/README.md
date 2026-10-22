@@ -35,8 +35,7 @@ Select an object and run **Extensions > Safe Delete Object** instead of the regu
 <br>
 <br>
 <br>
-
----
+<br>
 
 ## Ease FFD
 

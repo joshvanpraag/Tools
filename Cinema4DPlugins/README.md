@@ -33,10 +33,10 @@ Select an object and run **Extensions > Safe Delete Object** instead of the regu
 - Render Settings references (e.g. an object set as the Sky or Background object) can't be highlighted in the Object Manager since Render Settings isn't a selectable object — the plugin tells you to check **Edit > Render Settings** directly in that case.
 
 <br>
+<br>
+<br>
 
 ---
-
-<br>
 
 ## Ease FFD
 

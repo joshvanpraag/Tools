@@ -22,11 +22,14 @@ var CompStd = (function () {
     var NAME_ID = "0004";
     var PARENT_ID = "000d";
     var DEFAULT_WIDTHS = {
-        "0009": 68, "0005": 16, "0006": 16, "0007": 33, "0004": 275, "0008": 200, "000a": 140,
-        "000c": 271, "000d": 339, "000b": 47, "0014": 110, "000e": 70, "000f": 70, "0010": 70, "0011": 61
+        "0009": 68, "0005": 16, "0006": 16, "0007": 33, "0004": 365, "0008": 200, "000a": 140,
+        "000c": 271, "000d": 117, "000b": 47, "0014": 110, "000e": 70, "000f": 70, "0010": 70, "0011": 61
     };
     var OUTLINE_IDS = ["0009", "0005", "0006", "0007", "0004", "0008", "000a", "000c", "000d", "000b", "0014", "000e", "000f", "0010", "0011"];
     var NAME_TEXT_INSET = 28;
+    var ORDER_NAMES = ["A/V Features", "Label", "#", "Layer Name", "Comment", "Switches", "Modes", "Parent & Link", "Keys", "Render Time", "In", "Out", "Duration", "Stretch"];
+    var ORDER_IDS = { "A/V Features": "0009", "Label": "0006", "#": "0007", "Layer Name": "0004", "Comment": "0008", "Switches": "000a", "Modes": "000c", "Parent & Link": "000d", "Keys": "000b", "Render Time": "0014", "In": "000e", "Out": "000f", "Duration": "0010", "Stretch": "0011" };
+    var ORDER_PINNED_AFTER = { "0009": ["0005"] };
     var COLUMN_ORDER = ["A/V Features", "Label", "#", "Comment", "Switches", "Modes", "Parent & Link", "Keys", "Render Time", "In", "Out", "Duration", "Stretch"];
 
     var VIEWER_LAYOUTS = {
@@ -79,14 +82,16 @@ var CompStd = (function () {
                 grid: "leave",
                 viewerLayout: "leave",
                 nameWidthMode: "leave",
-                nameWidth: 275,
+                nameWidth: 365,
                 autoPadding: 10,
                 autoMin: 150,
                 autoMax: 700,
                 dividerMode: "leave",
-                parentWidth: 339,
+                parentWidth: 117,
                 totalWidth: 1100,
-                resetOtherWidths: false
+                resetOtherWidths: false,
+                columnOrder: "leave",
+                customOrder: ORDER_NAMES.slice(0)
             },
             showSummary: true
         };
@@ -334,13 +339,49 @@ var CompStd = (function () {
     function isOutline(id) { return indexOf(OUTLINE_IDS, id) !== -1; }
 
     function timelineWanted(F) {
-        return F.setColumns || F.nameWidthMode !== "leave" || F.dividerMode !== "leave" || F.resetOtherWidths;
+        return F.setColumns || F.nameWidthMode !== "leave" || F.dividerMode !== "leave" || F.resetOtherWidths || F.columnOrder !== "leave";
+    }
+
+    function validOrder(names) {
+        if (!names || names.length !== ORDER_NAMES.length) { return false; }
+        for (var i = 0; i < ORDER_NAMES.length; i++) { if (indexOf(names, ORDER_NAMES[i]) === -1) { return false; } }
+        return true;
+    }
+
+    function targetIdOrder(F) {
+        var names = (F.columnOrder === "custom" && validOrder(F.customOrder)) ? F.customOrder : ORDER_NAMES;
+        var ids = [];
+        for (var i = 0; i < names.length; i++) {
+            var id = ORDER_IDS[names[i]];
+            ids.push(id);
+            if (ORDER_PINNED_AFTER.hasOwnProperty(id)) { ids = ids.concat(ORDER_PINNED_AFTER[id]); }
+        }
+        return ids;
+    }
+
+    function reorderRecords(d, ids) {
+        var blocks = [];
+        for (var p = REC_START; p + REC_LEN <= d.length; p += REC_LEN) { blocks.push(d.substr(p, REC_LEN)); }
+        var used = [], out = [], i, j;
+        for (i = 0; i < ids.length; i++) {
+            for (j = 0; j < blocks.length; j++) {
+                if (!used[j] && blocks[j].substr(0, 4) === ids[i]) { out.push(blocks[j]); used[j] = true; break; }
+            }
+        }
+        for (j = 0; j < blocks.length; j++) { if (!used[j]) { out.push(blocks[j]); } }
+        return d.substr(0, REC_START) + out.join("");
     }
 
     function editTimeline(F, nameWidths, stats) {
         return function (acsi, seq, compId) {
             var recs = parseRecords(acsi);
             if (recs === null || seq.length !== 148 || findRec(recs, NAME_ID) === null) { stats.skipped++; return null; }
+            if (F.columnOrder !== "leave") {
+                var before = acsi;
+                acsi = reorderRecords(acsi, targetIdOrder(F));
+                if (acsi !== before) { stats.reordered = (stats.reordered || 0) + 1; }
+                recs = parseRecords(acsi);
+            }
             var i, r;
             if (F.resetOtherWidths) {
                 for (i = 0; i < recs.length; i++) {
@@ -522,6 +563,7 @@ var CompStd = (function () {
         if (timelineWanted(F)) {
             var tStats = { edited: 0, skipped: 0 };
             text = replaceTimelines(text, editTimeline(F, nameWidths, tStats), counter);
+            if (tStats.reordered) { report.notes.push(tStats.reordered + " timeline(s) had their column order reset."); }
             if (tStats.skipped) { report.warnings.push(tStats.skipped + " timeline(s) had an unexpected layout and were left unchanged."); }
             var unopened = allCompsCount - tStats.edited - tStats.skipped;
             if (unopened > 0) { report.notes.push(unopened + " comp(s) have never been opened in a timeline; AE gives them default columns when first opened."); }
@@ -592,6 +634,9 @@ var CompStd = (function () {
         VERSION: VERSION,
         SETTINGS_FILE: SETTINGS_FILE,
         COLUMN_ORDER: COLUMN_ORDER,
+        ORDER_NAMES: ORDER_NAMES,
+        _reorderRecords: reorderRecords,
+        _targetIdOrder: targetIdOrder,
         VIEWER_LAYOUTS: VIEWER_LAYOUTS,
         defaults: defaults,
         loadSettings: loadSettings,

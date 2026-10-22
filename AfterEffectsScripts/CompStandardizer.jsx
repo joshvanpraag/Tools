@@ -25,7 +25,8 @@ var CompStdIcons = {
     "bgColor": "\x89PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\x00\x00\x12\x00\x00\x00\x12\x08\x06\x00\x00\x00V\xce\x8eW\x00\x00\x01qIDATx\xda\xcd\x93\xbfj\xc30\x10\xc6\xbfS\x15\x19C\xb1\x02\xc5&\x7f\xbc\xe4\x01\xbc\x95\xee\x89\xdf!\xef\x92w\xf0+\x05\xbcf\xeb\x94\x0c\x1d\xba\x04\xbc\x04\x83\x0d\x1e\x92J\xbaNN\xdd\xd6n;d\xe8\x077\xdd\xe9w\x9fN'\xe0F\x22\x00`f\xca\xf3\x5c7MCUU\xfd\xe9\xa0\xd6\x1aZk\x14EQ\xaf\xd7k+\x01 \xcfs-\xa5|\x9eL&z:\x9dr\xdb`\xb0;\x11\x1bc\xe8r\xb9 \x8a\xa2'\x00/\x12\x00\x9a\xa6\xa1(\x8a\x1ev\xbb\xdd\xfd\xe1p\x80R\x0a\xce\xb9!\x08\x8c1\x88\xe3\x18i\x9a\xe2t:\xdd\x01\x80\x04\x80\xaa\xaa0\x9b\xcd\xde\xf6\xfb=o\xb7[\x0e\xc3\x90\x86@B\x08\x94e\xc9I\x92\xd0r\xb9\x043\xf3\x15\xd4\xceI)Ea\x18b\xb3\xd9\x90\xef\xfb\xb0\xd6\x82\x88\xbe9\xca\xb2\x0c\xa3\xd1\x88\xba9\xd9-bf8\xe7\xe0\xfb>~\x02\xb5u]\xc9>\xfb\xd6\xdak\xf4\x81\xfa$\x87\x06\xda\x8d\xbf\x80\xc4\xad\x16\xf2\xff\x81\xe4\xd7\xfb\x0b!~\x9dQ[3\x082\xc6pY\x96\x9ce\xd9u\x1d\xfa\x16\xf2x<r\x10\x04\x9f\xf2\xb2\xfd\x80\xd6Z\x9a\xcf\xe7\x94$\x09I){!\xad\xa3 \x08h\xb1X\x80\x99\xa1\x94\xfa\x0c:\x9f\xcfH\xd3\x14\xab\xd5j\xf0\x89\xbbr\xce\xc1\x18\x03\xcf\xf3>@EQ\xd4q\x1c?\xd6u}\xe7\x9ccc\xcc\x8f$)%\x0b!\xc8\xf3<\x8c\xc7\xe3W\xdcR\xef\xf6#\xa1\xe5M\xcd\xbb\xa1\x00\x00\x00\x00IEND\xaeB`\x82",
     "nameWidth": "\x89PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\x00\x00\x12\x00\x00\x00\x12\x08\x06\x00\x00\x00V\xce\x8eW\x00\x00\x01\xd6IDATx\xda\xb5S=\x8b\x13Q\x14\xbd\xf7\xce{\xf9 _,\xd9@\x08)T\xb0\xb7\xb3\x18XI\x11\xfc\x05\x1bA\x0b\x7f\xca\x10\xac\xad\xed\xb4T\xa6\xcc\x1f\xc8\xc8\xe4\xcbb!\xa4\xd04\x8b\xb0\x11\x0c\xa4\xc9\xa8\xccl&o\xde\xb5p'\xccf7\x09\xb2z\xba\xf3\xe0\x5c\xce\xb9\xef\x5c\x80\x7f\x04\xdc~`\xe6\xcd\x1b\x22\xf2.\x8e\x88\x0c\xff\x03\xb8\xed\xc6q\x9cR\xb9\x5cF\xcf\xf3@)\xf5\xb3P(\xe4R\xa9\x14m\xf3\xe9t\xfa\xa3\xd5jE\xb1\x96\x92q\x1c\xc7)I)\xcf|\xdf?\x07\x80/R\xcaGA\x10\x0c\x82 H\xf2\xa1\xef\xfb\xe7\xb5Z\xed\xde\x95\x966\x83b\x08!\x90\x99\x8f\x85\x10G\x00P\x01\x00\x09\x00\xe5\xdb\xf8j\xb5\x12I-\xdd\xc8\x8a\xb8\x8e\xa2\x88\x11q\xcd\xcc\xbc\x8bK)y\xef\xa0\xab\x98\x18\xc7\xdd\xc5\xb7u\x22\xf9\x95\xd9l\xf6W\x18\x86\x8f\x11\xd1`f\x16B\xcc\xb4\xd6O\x00@$\xf8\x09\x22\x8a(\x8a.\xfe\x18D}\xcdE\xb2/\x7f\x03\xcb\xb2\xe8F\x01\x07\x83\xc1\xab\xe1p\xf8\xf0\x90x2\x99\x1c\xb9\xae\xfb\xda\xb6\xedT<\x03\x99\x99z\xbd^\x89\x88\xde\x14\x8b\xc5g\x9e\xe7=UJ}\x15B\x90RJ_[(\x11j\xad\x19\x11\x0b\xe9t\xfa\x0c\x00>*\xa5\x9e\x9b\xa6\xf9\x1d-\xcb\xa2f\xb3\xf9\xa1^\xaf\x9f\xcef\xb3\xcbL&\x93A<\x9c2\x08\x82\xa0Z\xadf\xe7\xf3\xf9'\xc30\x1a\xc8\xcc\xd4\xef\xf7\xef\x1b\x86\xf16\x9f\xcf\x9f,\x97\xcb\x97D\xf4\x0d\x11\x89\x99\xf5-\x97\xc0Z\xeb\x9c\x94\xb2CD\x9f\xc30|a\x9a\xe6d\xb3#\xdb\xb6S\xa3\xd1\xe8\x9d\xeb\xba\x0f\x0e\xb9\x19\x8f\xc79\xd7u\xdfw:\x9d\xe3\xcd\x8e\xe2\xcd\xb7\xdbm\x0d\x00\xd0\xedv3\x8b\xc5b\xbdoP\xa5R\x91\x8dF\xe32>\x91;U\xe0.\x95\xd9\x8b\xdf#F\x1f\xe4\xc9\x08^\xc6\x00\x00\x00\x00IEND\xaeB`\x82",
     "divider": "\x89PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\x00\x00\x12\x00\x00\x00\x12\x08\x06\x00\x00\x00V\xce\x8eW\x00\x00\x01\xbcIDATx\xda\xadT1\x8b\x13A\x18}o\xbe].\x844''A\xe4\x10+\x9bk\x05\x05\x03\xbb`\xa3\x8d\x85\xb0\xb5`eka\xbb\x9b?`\xe9o\x90\xa4;r\xf5\x86\xe4\x88\x16\xfe\x05\xaf\x96;9X85\xb9\xcd\xce\xb3Hr\x175\x90Kp`\x98b\xde\xbcy\xdf7\xef\x0d\x00@\x12%\xb9\xe5\x99\xa6\xa9\xc3\xff\x1c\xad\x8fz\xf9\xa4\xa3\xb7\xebp\x01\x00\x8cF\xa3\xbbUU\xdd7\xb3K\x92\x04\x80\x8b1\xc2\xe7\xf1\xe3cO\xbc\x22\xf0\x0c\xc0\xfb\xd9\x11\x11\xa0V\x12I\xba\xe7\x9c{*\xe9\xc2{\xef\x00 4\x17\x84\xc0\xb1\x07\xceM8\xbd\x91\x22\x00\xa5\xa4\x1ff\xf6S\x92\x03\x00\xca\x05\xf3k\x8d\xbc\xc2\x01p\x9acD^+\x0b\x00`^\xceU\xa3\xe7*W6\xbb\xd3\xf1F\xb2Z`Hz\x00\xd8\xf8e\xf6\xf7?\xef\x0d\x87\xc3\x0f\xbd^o\x97\xa4\xcf\xf3<\xd8\x8ah<\xaeMH\xbei6\x9b\x9f\xfa\xfd\xfe\xc38\x8e\xa7\x92\xb81\xd1d\xe7\x97\x93tjf\x0f\xea\xf5\xfa`0\x18\xbc\xebv\xbb\xe1V\xa6#\xc9\xb2,\x11\x86a\xcd9w\xa7\xd1h0\xd8\x94dg2\xf1\x08\xc3[f\xf6\xbd(\x8a\xd7Q\x14\x1dnU\x1a\x80\x9a\xa4\xa3\xa2(\x1eEQt\x98\xe7y@R\x1b+:;\xbb}\x9e$\x07/fV\xe8X\x1c\xc7\xd3eg\x8b\xa4_xb\xde\x07\xbf\x8a(I\x0e.\x010MS&IR\xfd\xed\xec\xd0{_73\xbfd\x89\x80\xb3\xb5\x12P]S\xcd\xb2\xd6n\xb7\xf5OD\xbc\xf7\xdf\x9cs_$M\xaa\xaa\x22\x00\x94\x08\x82)\x00\x02\xbb\x10\xf6n\x94\xb5V\xabu\x02\xe0d\x15\xc0\x88#\x09_\xd7Zb\xf1\xb1eY\xc6\xe5\x8d,\xcb\xfe\x08\xe5\xba\xf1\x1b\xa4S\xcbb\x09F\x84p\x00\x00\x00\x00IEND\xaeB`\x82",
-    "columnWidths": "\x89PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\x00\x00\x12\x00\x00\x00\x12\x08\x06\x00\x00\x00V\xce\x8eW\x00\x00\x01FIDATx\xda\xed\xd4\xcfJ\x02Q\x14\x06\xf0\xef;\xf7\x8e\x16MXn\x84\x16\xbeA\xbb\x82`\x5c\x0c-\xf2iz\x82^%z\x00_!b\x16\x0d\x08\xad\x5c\x08\x09n\x12\x04W\xa1\x86\x924\x9c9-t\xa0\xa2?\x82.\xfb\x96?\xb8\x87{\xee9\x5c\x00\x80\x99\x11_\xb2\x89m\x163c\x92$\x07\xadV\xcbmb\xae\xd9lVI\xb6\xc30\xbc\xab\xd7\xeb\xcfq\x1c\xb3\x5c.\x1f\x92|\x08\xc3\xf0v\x0dkW*\x95\x84\xddn\xb7:\x1e\x8f\x07\x22r\x1aEQ\x0f\x00:\x9d\xce\xdel6\x9b\x90<\xfe\xcd\x92$\x09\xbd\xf7#\x00\x0d\xa6iz\x04\xe0\xc6{\x7f\xad\xaa\xaf\xab[\x07y\x9e_\x98\xd9\xbds\xee\xe5;SU\x8aH\x0e\xe0RD\xae|\x96e\xe2\xbd_\xa8\xea.\xc9\x92-\xe3HNDd\xe7\xc3{|2Y\xe6MU\x17\xaa\xca\xa2\xb5\xbe\xaa6\xe28~\x04\x804M\xf7\x01\x8cH\x9e\x14m\xfcdf\xf6\x04\xe0\x5c\xe6\xf39If\x00\xbc\x99\xd1\xcc\x18\x04A\xc9\xcc\x16Y\x96\x05\x7f\xd9\xea,\xa4\x18c\x10\x04F\xd2H\x9a\xaa\x1a\x80\xb5\xacXH\xd9\xd6>\xfe\x17Z\xa3\xd0`0\x988\xe7\xa2\xe9t\xda/p8\x1cNU\xf5l\x1ds\xceE\xb5Z\xad\xb7\xf5\xafD6\xb5w\xdd\xa6\x13O;\x9f\xbbD\x00\x00\x00\x00IEND\xaeB`\x82"
+    "columnWidths": "\x89PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\x00\x00\x12\x00\x00\x00\x12\x08\x06\x00\x00\x00V\xce\x8eW\x00\x00\x01FIDATx\xda\xed\xd4\xcfJ\x02Q\x14\x06\xf0\xef;\xf7\x8e\x16MXn\x84\x16\xbeA\xbb\x82`\x5c\x0c-\xf2iz\x82^%z\x00_!b\x16\x0d\x08\xad\x5c\x08\x09n\x12\x04W\xa1\x86\x924\x9c9-t\xa0\xa2?\x82.\xfb\x96?\xb8\x87{\xee9\x5c\x00\x80\x99\x11_\xb2\x89m\x163c\x92$\x07\xadV\xcbmb\xae\xd9lVI\xb6\xc30\xbc\xab\xd7\xeb\xcfq\x1c\xb3\x5c.\x1f\x92|\x08\xc3\xf0v\x0dkW*\x95\x84\xddn\xb7:\x1e\x8f\x07\x22r\x1aEQ\x0f\x00:\x9d\xce\xdel6\x9b\x90<\xfe\xcd\x92$\x09\xbd\xf7#\x00\x0d\xa6iz\x04\xe0\xc6{\x7f\xad\xaa\xaf\xab[\x07y\x9e_\x98\xd9\xbds\xee\xe5;SU\x8aH\x0e\xe0RD\xae|\x96e\xe2\xbd_\xa8\xea.\xc9\x92-\xe3HNDd\xe7\xc3{|2Y\xe6MU\x17\xaa\xca\xa2\xb5\xbe\xaa6\xe28~\x04\x804M\xf7\x01\x8cH\x9e\x14m\xfcdf\xf6\x04\xe0\x5c\xe6\xf39If\x00\xbc\x99\xd1\xcc\x18\x04A\xc9\xcc\x16Y\x96\x05\x7f\xd9\xea,\xa4\x18c\x10\x04F\xd2H\x9a\xaa\x1a\x80\xb5\xacXH\xd9\xd6>\xfe\x17Z\xa3\xd0`0\x988\xe7\xa2\xe9t\xda/p8\x1cNU\xf5l\x1ds\xceE\xb5Z\xad\xb7\xf5\xafD6\xb5w\xdd\xa6\x13O;\x9f\xbbD\x00\x00\x00\x00IEND\xaeB`\x82",
+    "columnOrder": "\x89PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\x00\x00\x12\x00\x00\x00\x12\x08\x06\x00\x00\x00V\xce\x8eW\x00\x00\x02:IDATx\xda\xad\x94?h\x14Q\x10\xc6\xbf\x99\xf7\x0e7o\xb3\x90\x1c\x1e\xd7I\xb8BA\x90\x146k\xc2\x05\xd6D\xac-\x92\xd2\x14)\x82\x88\xd8*\x0a\x07\xda\x08B\x0aKI\x0a\xb5;\x0b+\xc5\xc3H\xc2\x15\x09H\x8atb\x138H\x08\x11\xe2\x1a\xcf\xbdd\xcfwo,r\x9e\xffB\xbc`\xben\x8a7\xf3\xbe\x99\xdf\x0c\xa1\xad\x85\x85\x05\x8d\x7f(\x8a\x22\x8b\xe3R\xa9Tb\x11Q\xcb\xcb\xcb\xb3+++'E\x84D\x844\x00T*\x15\xdf\x18\xf3Pkm\xac\xb5BD\xf4\xe3!\x11\x89\x88\x10\x00h\xad\xef\x86a\xb8>::z\xafP(L\xad\xad\xade\x88h\xb2\x5c.+\x02\x80\xa5\xa5\xa5\xacs\xeec\x10\x04\xcaZ\x8b_\xf2t\xc4\xcc\xd8\xd9\xd99\xa5\x94:\x97\xcb\xe5^noo\xef\xe5r9oss\xf3\xe6\xc8\xc8\xc8#\xee\xc6\x0e\x11\xc19\x07\xa5\x94\x11\x91\xf3I\x92\xbc\x00\x90\x89\xe3\xf853\x17VWW}\x0d\x00\xf5z=\xf5\x8c?\xf7%\xd95\xae\xe5D \x07Z\xf32:\x09\xc3\xf0\xfe\xfc\xfc|\xbe\xbf\xbf\xffJ\x1c\xc7\xa5\xb1\xb1\xb1w\x22\xa2\xe8\xa8\xcd\x16\x11^\x5c\x5c<\x1d\x04\xc1\xfb$I.omm\xbd\x1d\x1f\x1f\x87\x06\x80KO\xc5ozn\x86\x14\x8ck\xb1\x00\xeeg\x01b\x81\xec\xc7A\x0f\xdf\x22\xa2\x8dj\xb5\xea\xda\xbfmMLL\xb4DD\xed[\xf3pB9\x9e\xca\xf4B\x91\x05@\x7f\xb6n?n\xec\xe1\x01\x80\x8do\xcc\x7f9\xe1\xe3\xe2K\x03@\xb0\x87\xb4\xe9\xb99\xec\xc2\xc8!\xd6L\x0f\x7f\x06\x80\x8csr`\xa27W)\x010\xddM\xe5r\xb9\xac\x94R\xdcfK\xb5WK:d{\xc6\x9fa\xa5\x0f\x1d\xbfd\xd4\xed(\x0c\xd7+\x95\xca'\xcf\xf3`\xad\x8d\xa3(\xb2\x22\xc2]\x91MD\x10\x11\xa4iz\xd6Z{\xd1\xf7\xfd3i\x9a^\x07\xf0\xccZ\xfb!\x08\x82\xee\xc8\x16\x1103\x88\xa8\x0e\xe0k__\xdf\x0dkm3\x9f\xcfO\x02\xe8\x1d\x1c\x1clt\xc86\xc6<n4\x1a\x87.-3K\xb1X|R\xadV/\x0c\x0c\x0cL\xd7j\xb5W\xc5b\xf1N\xc7\xdaQ\xcf\xc8\xd0\xd0PO6\x9b}\xdel6\xaf\x0d\x0f\x0f\xd7~K\xf4\xbf\x87\xed;\x8a<\x1f\x93\xd1\x09\xc22\x00\x00\x00\x00IEND\xaeB`\x82"
 };
 var CompStdTips = {
     "resolution": "Preview resolution of each comp (the Full/Half dropdown under the viewer).\nOnly affects previews; Render Queue output stays at your render settings.\nHalf renders 4x fewer pixels, so previews are much faster.",
@@ -67,15 +68,17 @@ var CompStdTips = {
     "graphEditor": "The Graph Editor button at the top of the timeline.\nOff: timelines open in the normal layer bar view. On: they open in the graph editor.",
     "grid": "Show or hide the viewer grid (View > Show Grid). Preview only.",
     "viewerLayout": "Number of viewer panes per comp (1 view, 2 views side by side, 4 views...). Mostly useful for 3D work.",
-    "nameWidthMode": "Width of the Layer Name column in every timeline.\nAE default: 275 px.\nFixed: the same width everywhere.\nAuto-fit: measures every layer name in each comp (including the [brackets] AE shows on un-renamed layers) and sizes that comp's column so the longest name just fits.",
-    "nameWidth": "Layer Name column width in pixels (AE default 275).",
+    "nameWidthMode": "Width of the Layer Name column in every timeline.\nDefault: 365 px.\nFixed: the same width everywhere.\nAuto-fit: measures every layer name in each comp (including the [brackets] AE shows on un-renamed layers) and sizes that comp's column so the longest name just fits.",
+    "nameWidth": "Layer Name column width in pixels (default 365).",
     "autoPadding": "Extra space added after the longest name, in pixels.",
     "autoMin": "Auto-fit never makes the Layer Name column narrower than this.",
     "autoMax": "Auto-fit never makes the Layer Name column wider than this, so one very long name can't take over the timeline.",
     "dividerMode": "Where the divider between the columns and the time graph sits.\nIn AE, dragging that divider only resizes the last column (normally Parent & Link).\nSet Parent & Link width: fixed width for that column; the divider moves with the other columns.\nSet total column width: keeps the divider at the same distance from the left edge in every comp; Parent & Link absorbs the difference (minimum 60 px).",
-    "parentWidth": "Parent & Link column width in pixels (AE default 339).",
+    "parentWidth": "Parent & Link column width in pixels (default 117).",
     "totalWidth": "Total width of all visible columns, i.e. the divider's distance from the left edge of the timeline, in pixels.\nScripts can't see your timeline panel width, so pick a value that suits your usual monitor layout.",
-    "resetOtherWidths": "Resets every other column (A/V, Label, #, Comment, Switches, Modes, Keys, In/Out...) to AE's default width. Layer Name and Parent & Link follow their own settings above.",
+    "resetOtherWidths": "Resets every other column (A/V, Label, #, Comment, Switches, Modes, Keys, In/Out...) to its default width. Layer Name and Parent & Link follow their own settings above.",
+    "columnOrder": "Puts the timeline columns back in a standard left-to-right order in every comp, undoing columns that were dragged around (e.g. Parent & Link moved left of Switches/Modes).\nAE default order: A/V, Label, #, Layer Name, Comment, Switches, Modes, Parent & Link, Keys, Render Time, In, Out, Duration, Stretch.\nCustom order: use the list below.\nOnly the order changes; widths and which columns are visible follow the other settings.",
+    "customOrder": "Select a column and use Up/Down to set its position. Hidden columns keep their place in the order and appear there if switched on. 'AE order' restores the default.",
     "run": "Applies all settings to every comp in the project now.\nComp and viewer settings are a normal undoable change; file-level options save a new _std_v## copy.",
     "showSummary": "When run from KBar (no panel), show a summary popup when done. Warnings are always shown.",
     "defaults": "Reset all saved settings to the defaults."
@@ -103,11 +106,14 @@ var CompStd = (function () {
     var NAME_ID = "0004";
     var PARENT_ID = "000d";
     var DEFAULT_WIDTHS = {
-        "0009": 68, "0005": 16, "0006": 16, "0007": 33, "0004": 275, "0008": 200, "000a": 140,
-        "000c": 271, "000d": 339, "000b": 47, "0014": 110, "000e": 70, "000f": 70, "0010": 70, "0011": 61
+        "0009": 68, "0005": 16, "0006": 16, "0007": 33, "0004": 365, "0008": 200, "000a": 140,
+        "000c": 271, "000d": 117, "000b": 47, "0014": 110, "000e": 70, "000f": 70, "0010": 70, "0011": 61
     };
     var OUTLINE_IDS = ["0009", "0005", "0006", "0007", "0004", "0008", "000a", "000c", "000d", "000b", "0014", "000e", "000f", "0010", "0011"];
     var NAME_TEXT_INSET = 28;
+    var ORDER_NAMES = ["A/V Features", "Label", "#", "Layer Name", "Comment", "Switches", "Modes", "Parent & Link", "Keys", "Render Time", "In", "Out", "Duration", "Stretch"];
+    var ORDER_IDS = { "A/V Features": "0009", "Label": "0006", "#": "0007", "Layer Name": "0004", "Comment": "0008", "Switches": "000a", "Modes": "000c", "Parent & Link": "000d", "Keys": "000b", "Render Time": "0014", "In": "000e", "Out": "000f", "Duration": "0010", "Stretch": "0011" };
+    var ORDER_PINNED_AFTER = { "0009": ["0005"] };
     var COLUMN_ORDER = ["A/V Features", "Label", "#", "Comment", "Switches", "Modes", "Parent & Link", "Keys", "Render Time", "In", "Out", "Duration", "Stretch"];
 
     var VIEWER_LAYOUTS = {
@@ -160,14 +166,16 @@ var CompStd = (function () {
                 grid: "leave",
                 viewerLayout: "leave",
                 nameWidthMode: "leave",
-                nameWidth: 275,
+                nameWidth: 365,
                 autoPadding: 10,
                 autoMin: 150,
                 autoMax: 700,
                 dividerMode: "leave",
-                parentWidth: 339,
+                parentWidth: 117,
                 totalWidth: 1100,
-                resetOtherWidths: false
+                resetOtherWidths: false,
+                columnOrder: "leave",
+                customOrder: ORDER_NAMES.slice(0)
             },
             showSummary: true
         };
@@ -415,13 +423,49 @@ var CompStd = (function () {
     function isOutline(id) { return indexOf(OUTLINE_IDS, id) !== -1; }
 
     function timelineWanted(F) {
-        return F.setColumns || F.nameWidthMode !== "leave" || F.dividerMode !== "leave" || F.resetOtherWidths;
+        return F.setColumns || F.nameWidthMode !== "leave" || F.dividerMode !== "leave" || F.resetOtherWidths || F.columnOrder !== "leave";
+    }
+
+    function validOrder(names) {
+        if (!names || names.length !== ORDER_NAMES.length) { return false; }
+        for (var i = 0; i < ORDER_NAMES.length; i++) { if (indexOf(names, ORDER_NAMES[i]) === -1) { return false; } }
+        return true;
+    }
+
+    function targetIdOrder(F) {
+        var names = (F.columnOrder === "custom" && validOrder(F.customOrder)) ? F.customOrder : ORDER_NAMES;
+        var ids = [];
+        for (var i = 0; i < names.length; i++) {
+            var id = ORDER_IDS[names[i]];
+            ids.push(id);
+            if (ORDER_PINNED_AFTER.hasOwnProperty(id)) { ids = ids.concat(ORDER_PINNED_AFTER[id]); }
+        }
+        return ids;
+    }
+
+    function reorderRecords(d, ids) {
+        var blocks = [];
+        for (var p = REC_START; p + REC_LEN <= d.length; p += REC_LEN) { blocks.push(d.substr(p, REC_LEN)); }
+        var used = [], out = [], i, j;
+        for (i = 0; i < ids.length; i++) {
+            for (j = 0; j < blocks.length; j++) {
+                if (!used[j] && blocks[j].substr(0, 4) === ids[i]) { out.push(blocks[j]); used[j] = true; break; }
+            }
+        }
+        for (j = 0; j < blocks.length; j++) { if (!used[j]) { out.push(blocks[j]); } }
+        return d.substr(0, REC_START) + out.join("");
     }
 
     function editTimeline(F, nameWidths, stats) {
         return function (acsi, seq, compId) {
             var recs = parseRecords(acsi);
             if (recs === null || seq.length !== 148 || findRec(recs, NAME_ID) === null) { stats.skipped++; return null; }
+            if (F.columnOrder !== "leave") {
+                var before = acsi;
+                acsi = reorderRecords(acsi, targetIdOrder(F));
+                if (acsi !== before) { stats.reordered = (stats.reordered || 0) + 1; }
+                recs = parseRecords(acsi);
+            }
             var i, r;
             if (F.resetOtherWidths) {
                 for (i = 0; i < recs.length; i++) {
@@ -603,6 +647,7 @@ var CompStd = (function () {
         if (timelineWanted(F)) {
             var tStats = { edited: 0, skipped: 0 };
             text = replaceTimelines(text, editTimeline(F, nameWidths, tStats), counter);
+            if (tStats.reordered) { report.notes.push(tStats.reordered + " timeline(s) had their column order reset."); }
             if (tStats.skipped) { report.warnings.push(tStats.skipped + " timeline(s) had an unexpected layout and were left unchanged."); }
             var unopened = allCompsCount - tStats.edited - tStats.skipped;
             if (unopened > 0) { report.notes.push(unopened + " comp(s) have never been opened in a timeline; AE gives them default columns when first opened."); }
@@ -673,6 +718,9 @@ var CompStd = (function () {
         VERSION: VERSION,
         SETTINGS_FILE: SETTINGS_FILE,
         COLUMN_ORDER: COLUMN_ORDER,
+        ORDER_NAMES: ORDER_NAMES,
+        _reorderRecords: reorderRecords,
+        _targetIdOrder: targetIdOrder,
         VIEWER_LAYOUTS: VIEWER_LAYOUTS,
         defaults: defaults,
         loadSettings: loadSettings,
@@ -856,7 +904,7 @@ var CompStd = (function () {
         return et;
     }
 
-    var nameDD = dropdown(fileGrp, "Layer Name width", [["leave", "Leave as is"], ["default", "AE default (275)"], ["fixed", "Fixed width"], ["auto", "Auto-fit longest name"]], F, "nameWidthMode", "nameWidth");
+    var nameDD = dropdown(fileGrp, "Layer Name width", [["leave", "Leave as is"], ["default", "Default (365)"], ["fixed", "Fixed width"], ["auto", "Auto-fit longest name"]], F, "nameWidthMode", "nameWidth");
     var nameFixedRow = fileGrp.add("group");
     nameFixedRow.margins.left = 24;
     numField(nameFixedRow, "Width px", F, "nameWidth", 60, 2000);
@@ -866,14 +914,45 @@ var CompStd = (function () {
     numField(nameAutoRow, "Min", F, "autoMin", 60, 2000);
     numField(nameAutoRow, "Max", F, "autoMax", 60, 3000);
 
-    var divDD = dropdown(fileGrp, "Divider position", [["leave", "Leave as is"], ["default", "AE default"], ["parent", "Set Parent & Link width"], ["total", "Set total column width"]], F, "dividerMode", "divider");
+    var divDD = dropdown(fileGrp, "Divider position", [["leave", "Leave as is"], ["default", "Default (Parent & Link 117)"], ["parent", "Set Parent & Link width"], ["total", "Set total column width"]], F, "dividerMode", "divider");
     var divParentRow = fileGrp.add("group");
     divParentRow.margins.left = 24;
     numField(divParentRow, "Parent & Link px", F, "parentWidth", 60, 3000);
     var divTotalRow = fileGrp.add("group");
     divTotalRow.margins.left = 24;
     numField(divTotalRow, "Total px", F, "totalWidth", 300, 5000);
-    checkbox(fileGrp, "Reset other column widths to AE defaults", F, "resetOtherWidths", "columnWidths");
+    checkbox(fileGrp, "Reset other column widths to defaults", F, "resetOtherWidths", "columnWidths");
+
+    var orderDD = dropdown(fileGrp, "Column order", [["leave", "Leave as is"], ["default", "AE default order"], ["custom", "Custom order"]], F, "columnOrder", "columnOrder");
+    var orderRow = fileGrp.add("group");
+    orderRow.orientation = "row";
+    orderRow.alignChildren = ["left", "top"];
+    orderRow.margins.left = 24;
+    var orderList = orderRow.add("listbox", undefined, F.customOrder);
+    orderList.preferredSize = [170, 150];
+    var orderBtns = orderRow.add("group");
+    orderBtns.orientation = "column";
+    orderBtns.alignChildren = ["fill", "top"];
+    var upBtn = orderBtns.add("button", undefined, "Up");
+    var downBtn = orderBtns.add("button", undefined, "Down");
+    var resetOrderBtn = orderBtns.add("button", undefined, "AE order");
+    tip("customOrder", [orderList, upBtn, downBtn, resetOrderBtn]);
+    function fillOrder(sel) {
+        orderList.removeAll();
+        for (var oi = 0; oi < F.customOrder.length; oi++) { orderList.add("item", F.customOrder[oi]); }
+        if (sel >= 0) { orderList.selection = sel; }
+    }
+    function moveOrder(delta) {
+        if (!orderList.selection) { return; }
+        var a = orderList.selection.index, b = a + delta;
+        if (b < 0 || b >= F.customOrder.length) { return; }
+        var t = F.customOrder[a]; F.customOrder[a] = F.customOrder[b]; F.customOrder[b] = t;
+        fillOrder(b);
+        persist();
+    }
+    upBtn.onClick = function () { moveOrder(-1); };
+    downBtn.onClick = function () { moveOrder(1); };
+    resetOrderBtn.onClick = function () { F.customOrder = CompStd.ORDER_NAMES.slice(0); fillOrder(-1); persist(); };
 
     function refreshWidthRows() {
         nameFixedRow.visible = F.nameWidthMode === "fixed";
@@ -884,10 +963,14 @@ var CompStd = (function () {
         divParentRow.maximumSize.height = divParentRow.visible ? 100 : 0;
         divTotalRow.visible = F.dividerMode === "total";
         divTotalRow.maximumSize.height = divTotalRow.visible ? 100 : 0;
+        orderRow.visible = F.columnOrder === "custom";
+        orderRow.maximumSize.height = orderRow.visible ? 300 : 0;
         win.layout.layout(true);
     }
     var nameChange = nameDD.onChange;
     nameDD.onChange = function () { nameChange(); refreshWidthRows(); };
+    var orderChange = orderDD.onChange;
+    orderDD.onChange = function () { orderChange(); refreshWidthRows(); };
     var divChange = divDD.onChange;
     divDD.onChange = function () { divChange(); refreshWidthRows(); };
 

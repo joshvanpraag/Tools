@@ -3,6 +3,7 @@
 - [Hex Swap](#hex-swap) — `HexSwap.jsx`
 - [Depth Range Slice](#depth-range-slice) — `DepthRangeSlice.jsx`
 - [Reset Layer Time Offsets](#reset-layer-time-offsets) — `ResetLayerTimeOffsets.jsx`
+- [Comp Standardizer](#comp-standardizer) — `CompStandardizer.jsx`, `CompStandardizerRun.jsx`
 
 ## Hex Swap
 
@@ -81,3 +82,30 @@ Run once via **File > Scripts > Run Script File**, or copy `ResetLayerTimeOffset
 
 1. Select the comp (make it active) and run the script — no selection of individual layers is needed, it scans every layer in the comp.
 2. Review the alert report for any skipped layers or expression warnings.
+
+## Comp Standardizer
+
+`CompStandardizer.jsx`, `CompStandardizerRun.jsx`
+
+Dockable ScriptUI panel that applies a consistent set of comp, viewer, and timeline settings across every comp in a project in one pass, plus a companion no-UI runner for triggering it from KBar with the last-saved settings.
+
+![Comp Standardizer UI](CompStandardizer.png)
+
+**What it does**
+
+- **Comp settings** — resolution, work area (reset to full comp), playhead position, "Preserve frame rate/resolution when nested", and background color, applied to every comp.
+- **Timeline switches** — Hide Shy Layers, Draft 3D, Frame Blending, and (project-wide) Motion Blur, each settable to On/Off/Leave, or **Smart** (on only in comps that actually use that feature).
+- **Viewer options** — Fast Previews mode, zoom, channels, exposure, transparency grid, rulers, and guides; opens each comp's viewer to apply them, then closes any tabs it opened.
+- **File-level options** (opt-in, since AE doesn't expose these to scripts directly): timeline column visibility/widths, Layer Name column width (fixed or auto-fit to the longest layer name), the divider position between columns and the time graph, twirling up all layer properties, zooming timelines out to show the full comp, graph editor default, viewer grid, and viewer pane layout. These are applied by exporting the project to a temporary XML copy, patching it, and saving the result as a new `yourproject_std_v01.aep` next to the original — **your original `.aep` is never modified**.
+- Every control has a hover tooltip explaining what it does; settings persist automatically via a JSON file in `Folder.userData`, with a **Defaults** button to reset them.
+- `CompStandardizerRun.jsx` re-applies whatever settings were last saved by the panel, with no dialog — built for a KBar button or a repeatable one-click pass. It shows a summary alert only if the panel's "Summary after KBar run" option is checked, or if there were warnings.
+
+**Install**
+
+Copy both files to `<After Effects>/Support Files/Scripts/ScriptUI Panels/`, restart AE, then open **Window > CompStandardizer.jsx**. Choose your settings there first — `CompStandardizerRun.jsx` reuses whatever the panel last saved, and does nothing (just shows an alert) until the panel has been opened and configured once. For the file-level `.aep` export/save step to work, enable Preferences → Scripting & Expressions → "Allow Scripts to Write Files and Access Network".
+
+**Usage**
+
+1. Open the panel and set your desired Comp/Timeline/Viewer options; optionally enable **File-level options** and choose which of those to apply.
+2. Click **Standardize All Comps** to run immediately, or save settings and trigger `CompStandardizerRun.jsx` later (e.g. from a KBar button) to repeat the same pass without opening the panel.
+3. Review the alert for a summary of what changed and any warnings.

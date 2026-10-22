@@ -34,6 +34,8 @@ Copy `HexSwap.jsx` to `<After Effects>/Support Files/Scripts/ScriptUI Panels/`, 
 
 Built and tested on After Effects 26.3 (Windows). See [HexSwapDeveloperNotes.md](HexSwapDeveloperNotes.md) for the internal code map, AE quirks discovered during development, and a testing hook — useful reading before extending the script.
 
+---
+
 ## Depth Range Slice
 
 `DepthRangeSlice.jsx`
@@ -60,6 +62,8 @@ Copy `DepthRangeSlice.jsx` to `<After Effects>/Support Files/Scripts/ScriptUI Pa
 2. Select the layer(s) and click **Apply to Selected Layer(s)**.
 3. Adjust Lower/Upper Grey to set the band width and position, then animate `Offset` (or use the Sweep buttons).
 
+---
+
 ## Reset Layer Time Offsets
 
 `ResetLayerTimeOffsets.jsx`
@@ -82,6 +86,8 @@ Run once via **File > Scripts > Run Script File**, or copy `ResetLayerTimeOffset
 
 1. Select the comp (make it active) and run the script — no selection of individual layers is needed, it scans every layer in the comp.
 2. Review the alert report for any skipped layers or expression warnings.
+
+---
 
 ## Comp Standardizer
 

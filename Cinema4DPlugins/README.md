@@ -32,6 +32,8 @@ Select an object and run **Extensions > Safe Delete Object** instead of the regu
 - XPresso and Take System references are scanned on a best-effort basis — the node-graph scan is wrapped defensively since node internals vary more between Cinema 4D versions than the regular object API. Always double-check the Console after using this on a scene with complex XPresso setups.
 - Render Settings references (e.g. an object set as the Sky or Background object) can't be highlighted in the Object Manager since Render Settings isn't a selectable object — the plugin tells you to check **Edit > Render Settings** directly in that case.
 
+---
+
 ## Ease FFD
 
 `EaseFFD/EaseFFD.pyp` (Python object plugin)

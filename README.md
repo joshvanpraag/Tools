@@ -27,6 +27,7 @@ _Nothing here yet._
 
 - [Safe Delete Object](Cinema4DPlugins/README.md#safe-delete-object) — checks for scene references and confirms before deleting an object
 - [Ease FFD](Cinema4DPlugins/README.md#ease-ffd) — FFD deformer with an Ease slider that blends sharp/local vs. native smooth interpolation
+- [Center Bend](Cinema4DPlugins/README.md#center-bend) — deformer that wraps geometry around a cylinder from the center outward, keeping the front flat
 
 ## Windows Programs
 

@@ -2,6 +2,7 @@
 
 - [Safe Delete Object](#safe-delete-object) — `SafeDeleteObject/`
 - [Ease FFD](#ease-ffd) — `EaseFFD/`
+- [Center Bend](#center-bend) — `CenterBend/`
 
 ## Safe Delete Object
 
@@ -93,3 +94,40 @@ To deform multiple sibling objects at once (all combined, every frame, including
 - `PLUGIN_ID` in `EaseFFD.pyp` is a personal-use placeholder. If it collides with another installed plugin, Cinema warns in the Console — pick a different ID ≥ 1000000, or register a real one at plugincafe.maxon.net before distributing.
 - If deformation looks scrambled/spiky rather than smoothly wrong, the FFD's internal point ordering doesn't match the plugin's assumption — flip `FFD_ORDER` in `EaseFFD.pyp` from `0` to `1`.
 - Pure Python, evaluated per-vertex per-grid-point. Keep the FFD's own grid resolution modest (5–15 points per axis) for interactive speed — the mesh resolution of the deformed object matters much less than the FFD grid size.
+
+<br>
+<br>
+<br>
+<br>
+
+## Center Bend
+
+`CenterBend/CenterBend.pyp` (Python deformer plugin)
+
+A bend deformer that wraps geometry around a cylinder **from the center outward**: the front stays flat and both ends curve back symmetrically. This is handy for wrapping text or panels around a curved surface, where native Bend only bends from one end.
+
+![Center Bend attributes](CenterBend/CenterBend.png)
+
+The bend length runs along the deformer's local X, the cylinder axis is local Y, and the ends curve toward local +Z (away from a default camera). Text built in the XY plane needs no rotation.
+
+### Install
+
+Drop the whole `CenterBend` folder into Cinema 4D's plugins directory (**Edit > Preferences > Open Preferences Folder > plugins**), then restart Cinema 4D. It appears as **Center Bend** wherever your plugin menu lands (e.g. Create > Object).
+
+### Usage
+
+Add **Center Bend** as a child of the object you want to deform, the same way you'd use native Bend.
+
+- **Auto Fit**: measures the incoming geometry in the deformer's own space on every cook, so it fits at any orientation.
+- **Fit to Parent**: bakes the current measurement into **Size**, moves the deformer to center it on the geometry, and turns Auto Fit off.
+- **Size**: the bend region, used when Auto Fit is off.
+- **Mode**: what happens to geometry past the ends of the region. **Limited** continues straight along the end tangent, and **Unlimited** keeps curving.
+- **Angle**: total wrap angle across both sides (e.g. 180° wraps into a half cylinder, 360° into a full one).
+- **Center Offset**: slides the center of the bend left or right (±50% of the length).
+- **Flat Zone**: percentage of the length kept undeformed at the front.
+- **Falloff**: how gradually the curve eases in from the flat zone to full bend.
+- **Y Offset** and **Y Direction**: shift the ends along Y as they wrap. **Both Ends Same** lifts both ends the same way. **Opposite (Spiral)** lifts one end and lowers the other, which makes a helix.
+
+### Notes
+
+- `PLUGIN_ID` in `CenterBend.pyp` is a personal-use placeholder. If it collides with another installed plugin, Cinema warns in the Console. Pick a different ID ≥ 1000000, or register a real one at plugincafe.maxon.net before distributing.

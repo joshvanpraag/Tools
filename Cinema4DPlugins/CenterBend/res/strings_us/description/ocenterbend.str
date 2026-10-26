@@ -1,0 +1,19 @@
+STRINGTABLE Ocenterbend
+{
+    Ocenterbend         "Center Bend";
+    ID_OBJECTPROPERTIES "Object Properties";
+    CB_AUTOFIT          "Auto Fit";
+    CB_FIT              "Fit to Parent";
+    CB_SIZE             "Size";
+    CB_MODE             "Mode";
+    CB_MODE_LIMITED     "Limited";
+    CB_MODE_UNLIMITED   "Unlimited";
+    CB_ANGLE            "Angle";
+    CB_CENTER           "Center Offset";
+    CB_FLAT             "Flat Zone";
+    CB_BLEND            "Falloff";
+    CB_YSHIFT           "Y Offset";
+    CB_YMODE            "Y Direction";
+    CB_YMODE_SAME       "Both Ends Same";
+    CB_YMODE_OPPOSITE   "Opposite (Spiral)";
+}

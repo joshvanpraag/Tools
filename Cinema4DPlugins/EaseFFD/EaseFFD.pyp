@@ -303,7 +303,7 @@ def load_icon():
     # Loaded explicitly rather than relying on filename-convention
     # auto-discovery, which has not been reliable for Python plugins
     # elsewhere in this file (see the description= resource lessons).
-    path = os.path.join(os.path.dirname(__file__), "res", "oeaseffd.tif")
+    path = os.path.join(os.path.dirname(__file__), "res", "EaseFFD.tif")
     if not os.path.isfile(path):
         return None
     bmp = c4d.bitmaps.BaseBitmap()

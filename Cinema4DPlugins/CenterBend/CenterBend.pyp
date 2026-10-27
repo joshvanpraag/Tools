@@ -359,22 +359,13 @@ class CenterBendData(plugins.ObjectData):
         return c4d.DRAWRESULT_OK
 
 
-def make_icon():
-    bmp = c4d.bitmaps.BaseBitmap()
-    if bmp.Init(64, 64) != c4d.IMAGERESULT_OK:
+def load_icon():
+    path = os.path.join(os.path.dirname(__file__), "res", "CenterBend.tif")
+    if not os.path.isfile(path):
         return None
-    for y in range(64):
-        for x in range(64):
-            bmp.SetPixel(x, y, 0, 0, 0)
-    # symmetric arc: flat center, curling ends
-    for i in range(-30, 31):
-        t = i / 30.0
-        a = max(0.0, abs(t) - 0.3) / 0.7
-        yy = int(22 + 26 * a * a)
-        for w in range(-2, 3):
-            px, py = 32 + i, yy + w
-            if 0 <= px < 64 and 0 <= py < 64:
-                bmp.SetPixel(px, py, 160, 130, 255)
+    bmp = c4d.bitmaps.BaseBitmap()
+    if bmp.InitWith(path)[0] != c4d.IMAGERESULT_OK:
+        return None
     return bmp
 
 
@@ -384,6 +375,6 @@ if __name__ == "__main__":
         str="Center Bend",
         g=CenterBendData,
         description="ocenterbend",
-        icon=make_icon(),
+        icon=load_icon(),
         info=c4d.OBJECT_MODIFIER,
     )

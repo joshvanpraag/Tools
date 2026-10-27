@@ -32,9 +32,9 @@ def load_icon():
 
     Expects the plugin to live in its own folder, e.g.:
       plugins/SafeDeleteObject/SafeDeleteObject.pyp
-      plugins/SafeDeleteObject/res/SafeDeleteObject.png
+      plugins/SafeDeleteObject/res/SafeDeleteObject.tif
     """
-    path = os.path.join(os.path.dirname(__file__), "res", "SafeDeleteObject.png")
+    path = os.path.join(os.path.dirname(__file__), "res", "SafeDeleteObject.tif")
     if not os.path.exists(path):
         print(f"[SafeDeleteObject] Icon not found at: {path}")
         return None

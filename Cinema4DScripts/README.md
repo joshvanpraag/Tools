@@ -17,6 +17,10 @@ Re-anchors a parent object's pivot to its first child's position without disturb
 
 Preserves the parent's existing per-axis scale. Wrapped in a single undo step.
 
+**Install**
+
+Copy `AlignParentToChild.py` and `AlignParentToChild.tif` (its icon) into Cinema 4D's scripts folder (**Edit > Preferences > Open Preferences Folder > library > scripts**). Keep both files together with the same name so the icon shows up in menus and palettes.
+
 **Usage**
 
 Select the parent object (its first child defines the target position/orientation) and run the script — no UI, no dialog beyond error messages if nothing is selected or the object has no children.

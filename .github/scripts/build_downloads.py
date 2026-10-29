@@ -33,7 +33,7 @@ def err(msg):
 
 
 def tracked_files():
-    out = subprocess.run(["git", "ls-files"], cwd=ROOT, capture_output=True, text=True, check=True).stdout
+    out = subprocess.run(["git", "ls-files", "--cached", "--others", "--exclude-standard"], cwd=ROOT, capture_output=True, text=True, check=True).stdout
     return [line.strip() for line in out.splitlines() if line.strip()]
 
 

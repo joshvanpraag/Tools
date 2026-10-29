@@ -73,3 +73,7 @@ _Nothing here yet._
 ## Windows Programs
 
 - [Hex Bench](WindowsPrograms/README.md#hex-bench) — sRGB hex → linear-light converter
+
+## Adding or updating tools
+
+Every tool follows the same packaging and documentation flow, and each one gets an automatic download. See [CONTRIBUTING.md](CONTRIBUTING.md).

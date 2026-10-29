@@ -9,7 +9,7 @@ Follow [CONTRIBUTING.md](CONTRIBUTING.md) exactly. In short:
 1. Files go in the right category folder (single-file tools loose; multi-file tools in their own subfolder named after the tool).
 2. Register the tool in `tools.json` (`name` must match its README `## Heading`; `asset` is the download file name — the file itself for one file, `ToolName.zip` otherwise).
 3. Document it in the category README, including the green **Download** badge that links to `https://github.com/joshvanpraag/Tools/releases/download/downloads/<asset>`.
-4. Add it to the root README's **Downloads** table and its category list (and the **How to install** table if it's a new type).
+4. Add one row to the root README's table for its category — `| [Name](link to writeup) | description | [**asset**](download link) |` — so each tool appears there exactly once (and add to **How to install** if it's a new type).
 5. Run `python .github/scripts/build_downloads.py --check` and fix every error before committing.
 6. After pushing to `main`, confirm the **Build downloads** Action succeeded (`gh run list --workflow downloads.yml --limit 1`) and the download link works.
 

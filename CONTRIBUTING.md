@@ -35,10 +35,13 @@ Every tool in this repo follows the same flow so that anyone — including peopl
      ```markdown
      [![Download ASSET](https://img.shields.io/badge/Download-ASSET-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/ASSET)
      ```
-5. **Update the root [`README.md`](README.md):**
-   - Add a row to the **Downloads** table (tool, type, download link).
-   - Add a bullet under the tool's category section.
-   - If it's a new *type* of tool, add a row to the **How to install** table.
+5. **Add a row to the root [`README.md`](README.md)** in the table under the tool's category — each tool appears there exactly once:
+
+   ```markdown
+   | [Tool Name](Category/README.md#tool-name) | One-line description | [**ASSET**](https://github.com/joshvanpraag/Tools/releases/download/downloads/ASSET) |
+   ```
+
+   If it's a new *type* of tool, also add a row to the **How to install** table.
 6. **Run the check locally** (optional, but catches mistakes before pushing):
 
    ```
@@ -54,11 +57,11 @@ Edit the files and push to `main`. The Action republishes the download under the
 
 ## Removing a tool
 
-Delete its files, its `tools.json` entry, its README section, and its root README rows. The Action removes the old download from the release automatically.
+Delete its files, its `tools.json` entry, its README section, and its root README row. The Action removes the old download from the release automatically.
 
 ## Adding a new category
 
-Create the CamelCase folder with a `README.md` (title + contents list, like the others), add a section for it to the root README in the same style, and add its type to the **How to install** table.
+Create the CamelCase folder with a `README.md` (title + contents list, like the others), add a `## Category` section with a `| Tool | What it does | Download |` table to the root README, and add its type to the **How to install** table.
 
 ## Signed After Effects extensions (`.zxp`)
 

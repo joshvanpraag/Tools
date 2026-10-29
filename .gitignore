@@ -25,3 +25,6 @@ obj/
 *.pfx
 cert-password*.txt
 ZXPSignCmd*.exe
+
+# Built downloads (published by .github/workflows/downloads.yml)
+dist/

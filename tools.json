@@ -1,0 +1,72 @@
+{
+  "release": "downloads",
+  "tools": [
+    {
+      "name": "Hex Swap",
+      "category": "AfterEffectsScripts",
+      "asset": "HexSwap.jsx",
+      "files": ["AfterEffectsScripts/HexSwap.jsx"]
+    },
+    {
+      "name": "Depth Range Slice",
+      "category": "AfterEffectsScripts",
+      "asset": "DepthRangeSlice.jsx",
+      "files": ["AfterEffectsScripts/DepthRangeSlice.jsx"]
+    },
+    {
+      "name": "Reset Layer Time Offsets",
+      "category": "AfterEffectsScripts",
+      "asset": "ResetLayerTimeOffsets.jsx",
+      "files": ["AfterEffectsScripts/ResetLayerTimeOffsets.jsx"]
+    },
+    {
+      "name": "Comp Standardizer",
+      "category": "AfterEffectsScripts",
+      "asset": "CompStandardizer.zip",
+      "files": ["AfterEffectsScripts/CompStandardizer.jsx", "AfterEffectsScripts/CompStandardizerRun.jsx"]
+    },
+    {
+      "name": "Ease Inspector",
+      "category": "AfterEffectsPlugins",
+      "asset": "EaseInspector.zxp",
+      "files": ["AfterEffectsPlugins/EaseInspector/EaseInspector.zxp"],
+      "source": ["AfterEffectsPlugins/EaseInspector/com.josh.easeinspector"]
+    },
+    {
+      "name": "AOV Set Depth",
+      "category": "Cinema4DScenes",
+      "asset": "AOVSetDepth.c4d",
+      "files": ["Cinema4DScenes/AOVSetDepth.c4d"]
+    },
+    {
+      "name": "Align Parent to Child",
+      "category": "Cinema4DScripts",
+      "asset": "AlignParentToChild.zip",
+      "files": ["Cinema4DScripts/AlignParentToChild.py", "Cinema4DScripts/AlignParentToChild.tif"]
+    },
+    {
+      "name": "Safe Delete Object",
+      "category": "Cinema4DPlugins",
+      "asset": "SafeDeleteObject.zip",
+      "files": ["Cinema4DPlugins/SafeDeleteObject"]
+    },
+    {
+      "name": "Ease FFD",
+      "category": "Cinema4DPlugins",
+      "asset": "EaseFFD.zip",
+      "files": ["Cinema4DPlugins/EaseFFD"]
+    },
+    {
+      "name": "Center Bend",
+      "category": "Cinema4DPlugins",
+      "asset": "CenterBend.zip",
+      "files": ["Cinema4DPlugins/CenterBend"]
+    },
+    {
+      "name": "Hex Bench",
+      "category": "WindowsPrograms",
+      "asset": "HexBench.exe",
+      "files": ["WindowsPrograms/HexBench.exe"]
+    }
+  ]
+}

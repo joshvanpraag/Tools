@@ -6,6 +6,8 @@
 
 `AlignParentToChild.py`
 
+[![Download AlignParentToChild.zip](https://img.shields.io/badge/Download-AlignParentToChild.zip-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/AlignParentToChild.zip)
+
 Re-anchors a parent object's pivot to its first child's position without disturbing any child's world-space transform.
 
 **What it does**

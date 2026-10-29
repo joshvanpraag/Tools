@@ -8,6 +8,8 @@
 
 `SafeDeleteObject/SafeDeleteObject.pyp` (Python command plugin, no UI)
 
+[![Download SafeDeleteObject.zip](https://img.shields.io/badge/Download-SafeDeleteObject.zip-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/SafeDeleteObject.zip)
+
 Adds a **Safe Delete Object** command (under **Extensions**) that checks what else in the scene references the selected object before deleting it, instead of deleting blind.
 
 **What it does**
@@ -41,6 +43,8 @@ Select an object and run **Extensions > Safe Delete Object** instead of the regu
 ## Ease FFD
 
 `EaseFFD/EaseFFD.pyp` (Python object plugin)
+
+[![Download EaseFFD.zip](https://img.shields.io/badge/Download-EaseFFD.zip-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/EaseFFD.zip)
 
 Adds an **Ease** slider to a Free-Form Deformation cage that blends between a sharp, local, corner-for-corner deformation and the native FFD's smooth global Bernstein/Bezier result — something stock FFD can't do at any cage density.
 
@@ -103,6 +107,8 @@ To deform multiple sibling objects at once (all combined, every frame, including
 ## Center Bend
 
 `CenterBend/CenterBend.pyp` (Python deformer plugin)
+
+[![Download CenterBend.zip](https://img.shields.io/badge/Download-CenterBend.zip-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/CenterBend.zip)
 
 A bend deformer that wraps geometry around a cylinder **from the center outward**: the front stays flat and both ends curve back symmetrically. This is handy for wrapping text or panels around a curved surface, where native Bend only bends from one end.
 

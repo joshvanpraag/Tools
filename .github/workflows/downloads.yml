@@ -1,0 +1,46 @@
+name: Build downloads
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: downloads
+  cancel-in-progress: false
+
+jobs:
+  downloads:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check tools and build downloads
+        run: python3 .github/scripts/build_downloads.py
+
+      - name: Publish to the "downloads" release
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG=$(python3 -c "import json;print(json.load(open('tools.json'))['release'])")
+          git tag -f "$TAG"
+          git push -f origin "refs/tags/$TAG"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --title "Downloads" --notes-file dist/notes.md --latest
+          else
+            gh release create "$TAG" --title "Downloads" --notes-file dist/notes.md --latest
+          fi
+          gh release upload "$TAG" dist/assets/* --clobber
+          for old in $(gh release view "$TAG" --json assets --jq '.assets[].name'); do
+            if [ ! -f "dist/assets/$old" ]; then
+              echo "Removing asset that's no longer in tools.json: $old"
+              gh release delete-asset "$TAG" "$old" --yes
+            fi
+          done
+          echo "Published $(ls dist/assets | wc -l) downloads to https://github.com/${GITHUB_REPOSITORY}/releases/tag/$TAG"

@@ -6,6 +6,8 @@
 
 `EaseInspector/EaseInspector.zxp` (signed CEP extension) — source in `EaseInspector/com.josh.easeinspector/`
 
+[![Download EaseInspector.zxp](https://img.shields.io/badge/Download-EaseInspector.zxp-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/EaseInspector.zxp)
+
 Dockable panel that shows the ease influence and speed of whatever keyframes you have selected, live, without opening the Keyframe Velocity dialog — plus quick editing, ease copy/paste, and a library of saved eases.
 
 ![Ease Inspector panel](EaseInspector/EaseInspector.png)

@@ -6,6 +6,8 @@
 
 `HexBench.exe`
 
+[![Download HexBench.exe](https://img.shields.io/badge/Download-HexBench.exe-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/HexBench.exe)
+
 Small Windows utility for converting sRGB hex color codes to linear-light values.
 
 ![Hex Bench UI](HexBench.png)

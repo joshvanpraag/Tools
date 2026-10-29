@@ -6,6 +6,8 @@
 
 `AOVSetDepth.c4d`
 
+[![Download AOVSetDepth.c4d](https://img.shields.io/badge/Download-AOVSetDepth.c4d-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/AOVSetDepth.c4d)
+
 Reference scene showing a correctly configured Redshift **Depth AOV** for use with depth-based compositing tools (e.g. [Depth Range Slice](../AfterEffectsScripts/README.md#depth-range-slice)).
 
 ![Depth AOV setup in Redshift](AOVSetDepth.png)

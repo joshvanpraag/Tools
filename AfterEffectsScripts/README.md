@@ -9,6 +9,8 @@
 
 `HexSwap.jsx`
 
+[![Download HexSwap.jsx](https://img.shields.io/badge/Download-HexSwap.jsx-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/HexSwap.jsx)
+
 Dockable ScriptUI panel that finds colors by hex code across a project (or across the comps/folders selected in the Project panel) and swaps them in bulk.
 
 ![Hex Swap UI](HexSwap.png)
@@ -43,6 +45,8 @@ Built and tested on After Effects 26.3 (Windows). See [HexSwapDeveloperNotes.md]
 
 `DepthRangeSlice.jsx`
 
+[![Download DepthRangeSlice.jsx](https://img.shields.io/badge/Download-DepthRangeSlice.jsx-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/DepthRangeSlice.jsx)
+
 ScriptUI panel that turns a rendered depth pass into an animated reveal/slice effect.
 
 ![Depth Range Slice UI](DepthRangeSlice.png)
@@ -74,6 +78,8 @@ Copy `DepthRangeSlice.jsx` to `<After Effects>/Support Files/Scripts/ScriptUI Pa
 
 `ResetLayerTimeOffsets.jsx`
 
+[![Download ResetLayerTimeOffsets.jsx](https://img.shields.io/badge/Download-ResetLayerTimeOffsets.jsx-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/ResetLayerTimeOffsets.jsx)
+
 No-UI utility script that moves every eligible layer's start time back to 0 and extends its in/out points to fill the comp, without changing the visible timing.
 
 **What it does**
@@ -101,6 +107,8 @@ Run once via **File > Scripts > Run Script File**, or copy `ResetLayerTimeOffset
 ## Comp Standardizer
 
 `CompStandardizer.jsx`, `CompStandardizerRun.jsx`
+
+[![Download CompStandardizer.zip](https://img.shields.io/badge/Download-CompStandardizer.zip-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/CompStandardizer.zip)
 
 Dockable ScriptUI panel that applies a consistent set of comp, viewer, and timeline settings across every comp in a project in one pass, plus a companion no-UI runner for triggering it from KBar with the last-saved settings.
 

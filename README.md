@@ -11,6 +11,10 @@ Each category below is a folder containing every tool for that category as loose
 - [Reset Layer Time Offsets](AfterEffectsScripts/README.md#reset-layer-time-offsets) — zero out layer start times while preserving on-screen timing
 - [Comp Standardizer](AfterEffectsScripts/README.md#comp-standardizer) — apply consistent comp/viewer/timeline settings across a whole project
 
+## After Effects Plugins
+
+- [Ease Inspector](AfterEffectsPlugins/README.md#ease-inspector) — live readout of the selected keyframes' ease influence and speed, with quick editing, ease copy/paste, and a saved-ease library
+
 ## After Effects Scenes
 
 _Nothing here yet._

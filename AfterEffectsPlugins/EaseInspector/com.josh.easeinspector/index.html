@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main" class="view">
+    <header class="bar">
+      <button id="toggle" class="tbtn" title="Collapse / expand the key list"></button>
+      <label class="live" title="Follow your keyframe selection live (about 4 times a second while keys are selected). Untick to stop checking; use Refresh to update by hand.">
+        <input type="checkbox" id="live" checked> Live
+      </label>
+      <button id="refresh" class="tbtn" title="Refresh: read the selected keys now"></button>
+      <span id="status">Select keyframes…</span>
+    </header>
+
+    <div id="keys">
+      <table id="keyTable"><thead></thead><tbody></tbody></table>
+    </div>
+
+    <section id="edit">
+      <div class="side" data-side="in">
+        <span class="lbl">In</span>
+        <span class="ico infl-in" title="Incoming influence %"></span>
+        <input data-f="inI" title="Incoming influence % (0.1–100). Type and press Return. Esc reverts.">
+        <span class="ico speed" title="Incoming speed"></span>
+        <input data-f="inS" title="Incoming speed. Type and press Return. Esc reverts.">
+      </div>
+      <div class="side" data-side="out">
+        <span class="lbl">Out</span>
+        <span class="ico infl-out" title="Outgoing influence %"></span>
+        <input data-f="outI" title="Outgoing influence % (0.1–100). Type and press Return. Esc reverts.">
+        <span class="ico speed" title="Outgoing speed"></span>
+        <input data-f="outS" title="Outgoing speed. Type and press Return. Esc reverts.">
+      </div>
+      <div class="tools">
+        <button class="ibtn" id="copy" title="Copy the ease (influence, speed, interpolation) of the selected keys"></button>
+        <button class="ibtn" id="paste" title="Paste copied eases onto the selected keys, in order. One copied key pastes onto any number of keys."><b class="badge" id="badge"></b></button>
+        <button class="ibtn" id="save" title="Save one keyframe's ease to the library (the copied key, or the single selected key)"></button>
+        <button class="ibtn" id="manage" title="Manage the library: rename, add, edit, remove, import / export"></button>
+      </div>
+    </section>
+
+    <div id="prompt" class="prompt hidden"></div>
+
+    <section id="library">
+      <div class="libhead"><span id="libName"></span></div>
+      <div id="tiles"></div>
+    </section>
+
+    <div id="msg" class="msg hidden"></div>
+  </div>
+
+  <div id="manager" class="view hidden">
+    <header class="bar">
+      <span class="ico lib" title="Library name"></span>
+      <input id="mName" title="Library name">
+      <button class="ibtn sm" id="mImport" title="Import a library .json (replace or add)"></button>
+      <button class="ibtn sm" id="mExport" title="Export this library to a .json backup"></button>
+      <button class="ibtn sm" id="mReset" title="Reset to the default eases"></button>
+    </header>
+    <div id="mList"></div>
+    <div class="mtools">
+      <button class="ibtn sm" id="mAdd" title="Add the values below as a new ease"></button>
+      <button class="ibtn sm" id="mUpd" title="Overwrite the selected ease with the values below"></button>
+      <button class="ibtn sm" id="mRem" title="Remove the selected eases"></button>
+      <span class="gap"></span>
+      <button class="ibtn sm" id="mUp" title="Move the selected ease up"></button>
+      <button class="ibtn sm" id="mDown" title="Move the selected ease down"></button>
+    </div>
+    <div class="meditor">
+      <div class="tile preview" id="mPreview"></div>
+      <div class="mfields">
+        <input id="mfName" title="Optional name. Leave it blank and the tile shows the values (e.g. 70/70) and follows them as you edit. Press Return to apply.">
+        <div class="side"><span class="lbl">In</span><span class="ico infl-in"></span><input id="mfInI"><span class="ico speed"></span><input id="mfInS"></div>
+        <div class="side"><span class="lbl">Out</span><span class="ico infl-out"></span><input id="mfOutI"><span class="ico speed"></span><input id="mfOutS"></div>
+      </div>
+    </div>
+    <footer class="mfoot">
+      <button class="tbtn text" id="mCancel">Cancel</button>
+      <button class="tbtn text primary" id="mSave">Save</button>
+    </footer>
+    <div id="mMsg" class="msg hidden"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

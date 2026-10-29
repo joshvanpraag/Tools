@@ -19,3 +19,9 @@ Adobe After Effects Auto-Save/
 *.exe.obj
 bin/
 obj/
+
+# Extension signing (never commit certificates or passwords)
+*.p12
+*.pfx
+cert-password*.txt
+ZXPSignCmd*.exe

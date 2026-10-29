@@ -61,7 +61,7 @@ Delete its files, its `tools.json` entry, its README section, and its root READM
 
 ## Adding a new category
 
-Create the CamelCase folder with a `README.md` (title + contents list, like the others), add it to the root README under its app's `##` heading as a `### <emoji> Type` section with a `| Tool | What it does | Download |` table, and add its type to the **How to install** table. Keep the emoji consistent: 📜 Scripts, 🧩 Plugins, 🎬 Scenes (apps: 🎞️ After Effects, 🧊 Cinema 4D, 💻 Windows). A new app gets its own `##` heading with an emoji and the spacer + divider block (`<br>` ×4, `---`, `<br>`) before each app heading (including the first, after the intro), as in the existing README.
+Create the CamelCase folder with a `README.md` (title + contents list, like the others), add it to the root README under its app's `##` heading as a `### <emoji> Type` section with a three-column table. Copy the header row from an existing table exactly: it contains invisible spacer images (`.github/assets/spacer.png`) that make every table full width with matching column widths, which GitHub can't otherwise do. Then add its type to the **How to install** table. Keep the emoji consistent: 📜 Scripts, 🧩 Plugins, 🎬 Scenes (apps: 🎞️ After Effects, 🧊 Cinema 4D, 💻 Windows). A new app gets its own `##` heading with an emoji and the spacer + divider block (`<br>` ×4, `---`, `<br>`) before each app heading (including the first, after the intro), as in the existing README.
 
 ## Signed After Effects extensions (`.zxp`)
 

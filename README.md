@@ -1,10 +1,12 @@
-# Tools
+# 🧰 Tools
 
 A collection of tools created for use in Cinema 4D, After Effects, and other design software.
 
 Find a tool below and click its download link. The links always give you the newest version. Click a tool's name for its full writeup, and see [How to install](#how-to-install) if you're new to installing tools. Every download is also listed on the [Downloads release](https://github.com/joshvanpraag/Tools/releases/tag/downloads).
 
-## After Effects Scripts
+## 🎞️ After Effects
+
+### 📜 Scripts
 
 | Tool | What it does | Download |
 |---|---|---|
@@ -13,29 +15,27 @@ Find a tool below and click its download link. The links always give you the new
 | [Reset Layer Time Offsets](AfterEffectsScripts/README.md#reset-layer-time-offsets) | Zero out layer start times while preserving on-screen timing | [**ResetLayerTimeOffsets.jsx**](https://github.com/joshvanpraag/Tools/releases/download/downloads/ResetLayerTimeOffsets.jsx) |
 | [Comp Standardizer](AfterEffectsScripts/README.md#comp-standardizer) | Apply consistent comp/viewer/timeline settings across a whole project | [**CompStandardizer.zip**](https://github.com/joshvanpraag/Tools/releases/download/downloads/CompStandardizer.zip) |
 
-## After Effects Plugins
+### 🧩 Plugins
 
 | Tool | What it does | Download |
 |---|---|---|
 | [Ease Inspector](AfterEffectsPlugins/README.md#ease-inspector) | Live readout of the selected keyframes' ease influence and speed, with quick editing, ease copy/paste, and a saved-ease library | [**EaseInspector.zxp**](https://github.com/joshvanpraag/Tools/releases/download/downloads/EaseInspector.zxp) |
 
-## After Effects Scenes
+### 🎬 Scenes
 
 _Nothing here yet._
 
-## Cinema 4D Scenes
+---
 
-| Tool | What it does | Download |
-|---|---|---|
-| [AOV Set Depth](Cinema4DScenes/README.md#aov-set-depth) | Reference scene for a correctly configured Redshift Depth AOV | [**AOVSetDepth.c4d**](https://github.com/joshvanpraag/Tools/releases/download/downloads/AOVSetDepth.c4d) |
+## 🧊 Cinema 4D
 
-## Cinema 4D Scripts
+### 📜 Scripts
 
 | Tool | What it does | Download |
 |---|---|---|
 | [Align Parent to Child](Cinema4DScripts/README.md#align-parent-to-child) | Re-anchor a parent's pivot to its child without moving the geometry | [**AlignParentToChild.zip**](https://github.com/joshvanpraag/Tools/releases/download/downloads/AlignParentToChild.zip) |
 
-## Cinema 4D Plugins
+### 🧩 Plugins
 
 | Tool | What it does | Download |
 |---|---|---|
@@ -43,13 +43,25 @@ _Nothing here yet._
 | [Ease FFD](Cinema4DPlugins/README.md#ease-ffd) | FFD deformer with an Ease slider that blends sharp/local vs. native smooth interpolation | [**EaseFFD.zip**](https://github.com/joshvanpraag/Tools/releases/download/downloads/EaseFFD.zip) |
 | [Center Bend](Cinema4DPlugins/README.md#center-bend) | Deformer that wraps geometry around a cylinder from the center outward, keeping the front flat | [**CenterBend.zip**](https://github.com/joshvanpraag/Tools/releases/download/downloads/CenterBend.zip) |
 
-## Windows Programs
+### 🎬 Scenes
+
+| Tool | What it does | Download |
+|---|---|---|
+| [AOV Set Depth](Cinema4DScenes/README.md#aov-set-depth) | Reference scene for a correctly configured Redshift Depth AOV | [**AOVSetDepth.c4d**](https://github.com/joshvanpraag/Tools/releases/download/downloads/AOVSetDepth.c4d) |
+
+---
+
+## 💻 Windows Programs
 
 | Tool | What it does | Download |
 |---|---|---|
 | [Hex Bench](WindowsPrograms/README.md#hex-bench) | sRGB hex → linear-light converter | [**HexBench.exe**](https://github.com/joshvanpraag/Tools/releases/download/downloads/HexBench.exe) |
 
-## How to install
+---
+
+<a id="how-to-install"></a>
+
+## 🛠️ How to install
 
 1. **Download** the tool from its table above (or the green **Download** button on its writeup).
 2. **If it's a `.zip`**, unzip it first: on Windows, right-click it and choose **Extract All**; on a Mac, double-click it.
@@ -66,6 +78,8 @@ _Nothing here yet._
 
 Each tool's writeup has its own install and usage notes.
 
-## Adding or updating tools
+<a id="adding-or-updating-tools"></a>
+
+## ✍️ Adding or updating tools
 
 Every tool follows the same packaging and documentation flow, and each one gets an automatic download. See [CONTRIBUTING.md](CONTRIBUTING.md).

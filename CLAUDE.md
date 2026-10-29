@@ -18,7 +18,7 @@ Never point people at repo file URLs for downloads, and never hand-upload files 
 ## Style
 
 - Match the existing READMEs: a `## Tool Name` heading, the file line in backticks, the download badge, then **What it does**, **Install**, **Usage**, **Notes**; screenshots named `ToolName.png` next to the tool.
-- The root README groups tools by app (`## 🎞️ After Effects`, `## 🧊 Cinema 4D`, `## 💻 Windows Programs`) with `### 📜 Scripts` / `### 🧩 Plugins` / `### 🎬 Scenes` sub-sections and `---` dividers between apps. Keep that structure and those emoji.
+- The root README groups tools by app (`## 🎞️ After Effects`, `## 🧊 Cinema 4D`, `## 💻 Windows Programs`) with `### 📜 Scripts` / `### 🧩 Plugins` / `### 🎬 Scenes` sub-sections and a spacer + divider block between apps (`<br>` ×4, `---`, `<br>`). Keep that structure and those emoji.
 - Commit directly to `main` with a short imperative subject (e.g. "Add Center Bend Cinema 4D plugin"), as in the existing history.
 
 ## Signing

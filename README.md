@@ -58,6 +58,7 @@ _Nothing here yet._
 | [Safe Delete Object](Cinema4DPlugins/README.md#safe-delete-object) | Checks for scene references and confirms before deleting an object | [**SafeDeleteObject.zip**](https://github.com/joshvanpraag/Tools/releases/download/downloads/SafeDeleteObject.zip) |
 | [Ease FFD](Cinema4DPlugins/README.md#ease-ffd) | FFD deformer with an Ease slider that blends sharp/local vs. native smooth interpolation | [**EaseFFD.zip**](https://github.com/joshvanpraag/Tools/releases/download/downloads/EaseFFD.zip) |
 | [Center Bend](Cinema4DPlugins/README.md#center-bend) | Deformer that wraps geometry around a cylinder from the center outward, keeping the front flat | [**CenterBend.zip**](https://github.com/joshvanpraag/Tools/releases/download/downloads/CenterBend.zip) |
+| [RS ID Manager](Cinema4DPlugins/README.md#rs-id-manager) | Dockable table for managing Redshift Object IDs and Material IDs alongside their Puzzle Mattes | [**RSIDManager.zip**](https://github.com/joshvanpraag/Tools/releases/download/downloads/RSIDManager.zip) |
 
 ### 🎬 Scenes
 

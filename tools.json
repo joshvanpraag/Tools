@@ -63,6 +63,12 @@
       "files": ["Cinema4DPlugins/CenterBend"]
     },
     {
+      "name": "RS ID Manager",
+      "category": "Cinema4DPlugins",
+      "asset": "RSIDManager.zip",
+      "files": ["Cinema4DPlugins/RSIDManager"]
+    },
+    {
       "name": "Hex Bench",
       "category": "WindowsPrograms",
       "asset": "HexBench.exe",

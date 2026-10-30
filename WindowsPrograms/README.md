@@ -6,11 +6,11 @@
 
 `HexBench.exe`
 
-[![Download HexBench.exe](https://img.shields.io/badge/Download-HexBench.exe-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/HexBench.exe)
+<a href="https://github.com/joshvanpraag/Tools/releases/download/downloads/HexBench.exe"><img src="https://img.shields.io/badge/Download-HexBench.exe-2ea44f?style=for-the-badge&logo=github" alt="Download HexBench.exe" height="28"></a>
 
 Small Windows utility for converting sRGB hex color codes to linear-light values.
 
-![Hex Bench UI](HexBench.png)
+<img src="HexBench.png" alt="Hex Bench UI" width="800" height="1089">
 
 **What it does**
 
@@ -19,3 +19,6 @@ Paste one or more sRGB hex codes (`#RGB` or `#RRGGBB`, separated by spaces/comma
 **Usage**
 
 Run `HexBench.exe`, paste your hex code(s) into the input box, and read the converted linear hex + float values below. Click **Copy** to grab a result.
+
+<!-- Spacer so the last section can scroll to the top when linked to. -->
+<img src="../.github/assets/spacer.png" width="1" height="1000" alt="">

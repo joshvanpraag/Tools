@@ -9,7 +9,7 @@
 
 `SafeDeleteObject/SafeDeleteObject.pyp` (Python command plugin, no UI)
 
-[![Download SafeDeleteObject.zip](https://img.shields.io/badge/Download-SafeDeleteObject.zip-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/SafeDeleteObject.zip)
+<a href="https://github.com/joshvanpraag/Tools/releases/download/downloads/SafeDeleteObject.zip"><img src="https://img.shields.io/badge/Download-SafeDeleteObject.zip-2ea44f?style=for-the-badge&logo=github" alt="Download SafeDeleteObject.zip" height="28"></a>
 
 Adds a **Safe Delete Object** command (under **Extensions**) that checks what else in the scene references the selected object before deleting it, instead of deleting blind.
 
@@ -45,11 +45,11 @@ Select an object and run **Extensions > Safe Delete Object** instead of the regu
 
 `EaseFFD/EaseFFD.pyp` (Python object plugin)
 
-[![Download EaseFFD.zip](https://img.shields.io/badge/Download-EaseFFD.zip-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/EaseFFD.zip)
+<a href="https://github.com/joshvanpraag/Tools/releases/download/downloads/EaseFFD.zip"><img src="https://img.shields.io/badge/Download-EaseFFD.zip-2ea44f?style=for-the-badge&logo=github" alt="Download EaseFFD.zip" height="28"></a>
 
 Adds an **Ease** slider to a Free-Form Deformation cage that blends between a sharp, local, corner-for-corner deformation and the native FFD's smooth global Bernstein/Bezier result — something stock FFD can't do at any cage density.
 
-![Ease FFD attributes](EaseFFD/EaseFFD.png)
+<img src="EaseFFD/EaseFFD.png" alt="Ease FFD attributes" width="511" height="621">
 
 - **Ease = 0%** — sharp, exactly follows the cage (local trilinear interpolation across the nearest cell)
 - **Ease = 100%** — identical to native FFD (same global Bernstein/Bezier math stock FFD always uses)
@@ -109,11 +109,11 @@ To deform multiple sibling objects at once (all combined, every frame, including
 
 `CenterBend/CenterBend.pyp` (Python deformer plugin)
 
-[![Download CenterBend.zip](https://img.shields.io/badge/Download-CenterBend.zip-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/CenterBend.zip)
+<a href="https://github.com/joshvanpraag/Tools/releases/download/downloads/CenterBend.zip"><img src="https://img.shields.io/badge/Download-CenterBend.zip-2ea44f?style=for-the-badge&logo=github" alt="Download CenterBend.zip" height="28"></a>
 
 A bend deformer that wraps geometry around a cylinder **from the center outward**: the front stays flat and both ends curve back symmetrically. This is handy for wrapping text or panels around a curved surface, where native Bend only bends from one end.
 
-![Center Bend attributes](CenterBend/CenterBend.png)
+<img src="CenterBend/CenterBend.png" alt="Center Bend attributes" width="705" height="551">
 
 The bend length runs along the deformer's local X, the cylinder axis is local Y, and the ends curve toward local +Z (away from a default camera). Text built in the XY plane needs no rotation.
 
@@ -148,11 +148,11 @@ Add **Center Bend** as a child of the object you want to deform, the same way yo
 
 `RSIDManager/RSIDManager.pyp` (Python command plugin, dockable panel)
 
-[![Download RSIDManager.zip](https://img.shields.io/badge/Download-RSIDManager.zip-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/RSIDManager.zip)
+<a href="https://github.com/joshvanpraag/Tools/releases/download/downloads/RSIDManager.zip"><img src="https://img.shields.io/badge/Download-RSIDManager.zip-2ea44f?style=for-the-badge&logo=github" alt="Download RSIDManager.zip" height="28"></a>
 
 A dockable panel that lists every Redshift Object ID or Material ID in the scene in one table, along with the Puzzle Matte that covers it, so you can see and fix ID assignments without clicking through tags and materials one at a time.
 
-![RS ID Manager panel](RSIDManager/RSIDManager.png)
+<img src="RSIDManager/RSIDManager.png" alt="RS ID Manager panel" width="800" height="532">
 
 **What it does**
 
@@ -184,3 +184,6 @@ Drop the whole `RSIDManager` folder into Cinema 4D's plugins directory (**Edit >
 - Requires Redshift. Puzzle Matte checks are skipped if Redshift isn't the active renderer.
 - Material ID mode only lists Redshift node materials. Other materials are counted in the status bar but not shown.
 - `PLUGIN_ID` in `RSIDManager.pyp` is a personal-use placeholder. If it collides with another installed plugin, Cinema warns in the Console. Pick a different ID ≥ 1000000, or register a real one at plugincafe.maxon.net before distributing.
+
+<!-- Spacer so the last section can scroll to the top when linked to. -->
+<img src="../.github/assets/spacer.png" width="1" height="1000" alt="">

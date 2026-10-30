@@ -114,3 +114,6 @@ Each tool's writeup has its own install and usage notes.
 ## ✍️ Adding or updating tools
 
 Every tool follows the same packaging and documentation flow, and each one gets an automatic download. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+<!-- Spacer so the last section can scroll to the top when linked to. -->
+<img src=".github/assets/spacer.png" width="1" height="1000" alt="">

@@ -6,11 +6,11 @@
 
 `EaseInspector/EaseInspector.zxp` (signed CEP extension) — source in `EaseInspector/com.josh.easeinspector/`
 
-[![Download EaseInspector.zxp](https://img.shields.io/badge/Download-EaseInspector.zxp-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/EaseInspector.zxp)
+<a href="https://github.com/joshvanpraag/Tools/releases/download/downloads/EaseInspector.zxp"><img src="https://img.shields.io/badge/Download-EaseInspector.zxp-2ea44f?style=for-the-badge&logo=github" alt="Download EaseInspector.zxp" height="28"></a>
 
 Dockable panel that shows the ease influence and speed of whatever keyframes you have selected, live, without opening the Keyframe Velocity dialog — plus quick editing, ease copy/paste, and a library of saved eases.
 
-![Ease Inspector panel](EaseInspector/EaseInspector.png)
+<img src="EaseInspector/EaseInspector.png" alt="Ease Inspector panel" width="600" height="940">
 
 **What it does**
 
@@ -50,3 +50,6 @@ Built and tested on After Effects 26.3 (Windows).
 - `host.jsx` holds all After Effects-side logic (reading/writing eases, copy/paste, library storage); `main.js` is the panel UI. The panel talks to AE only through `evalScript`, so a call made while AE has a modal dialog open is simply retried instead of raising an error.
 - To work on it without packaging: copy `com.josh.easeinspector/` to `%APPDATA%\Adobe\CEP\extensions\` and enable unsigned extensions by setting `PlayerDebugMode` = `1` under `HKEY_CURRENT_USER\Software\Adobe\CSXS.<version>`.
 - To package a new version: bump both version numbers in `CSXS/manifest.xml`, then run `ZXPSignCmd -sign com.josh.easeinspector EaseInspector.zxp <cert.p12> <password>` (ZXPSignCmd is in Adobe's [CEP-Resources](https://github.com/Adobe-CEP/CEP-Resources/tree/master/ZXPSignCMD) repo). Never commit the certificate or its password. Version 4.1.103 crashes when given `-tsa`, which is why the package isn't timestamped.
+
+<!-- Spacer so the last section can scroll to the top when linked to. -->
+<img src="../.github/assets/spacer.png" width="1" height="1000" alt="">

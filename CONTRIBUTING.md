@@ -30,11 +30,13 @@ Every tool in this repo follows the same flow so that anyone — including peopl
 4. **Write it up in the category's `README.md`**, matching the existing style:
    - Add it to the contents list at the top.
    - Add a `## Tool Name` section: the file line in backticks, then the download button, then **What it does**, **Install**, **Usage**, and **Notes** as needed. Separate tools with the `<br>` spacer block used in the other READMEs.
-   - Download button (replace both `ASSET` placeholders; in the badge text, write `-` as `--` and `_` as `__`):
+   - Download button (replace all three `ASSET` placeholders; in the badge text, write `-` as `--` and `_` as `__`):
 
-     ```markdown
-     [![Download ASSET](https://img.shields.io/badge/Download-ASSET-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/ASSET)
+     ```html
+     <a href="https://github.com/joshvanpraag/Tools/releases/download/downloads/ASSET"><img src="https://img.shields.io/badge/Download-ASSET-2ea44f?style=for-the-badge&logo=github" alt="Download ASSET" height="28"></a>
      ```
+   - Screenshots use an `<img>` tag with `width` and `height` set to the image's pixel size, scaled down proportionally to at most 800 wide (e.g. `<img src="ToolName.png" alt="Tool Name UI" width="705" height="551">`).
+   - Images and badges are written this way, with fixed sizes, so the page doesn't shift as they load and links to a `## Tool Name` section land with the heading at the top. Every README also ends with an invisible spacer image so the last section can scroll to the top. Keep it as the last line when adding a tool at the end.
 5. **Add a row to the root [`README.md`](README.md)** in the table under the tool's category — each tool appears there exactly once:
 
    ```markdown

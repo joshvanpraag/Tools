@@ -9,11 +9,11 @@
 
 `HexSwap.jsx`
 
-[![Download HexSwap.jsx](https://img.shields.io/badge/Download-HexSwap.jsx-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/HexSwap.jsx)
+<a href="https://github.com/joshvanpraag/Tools/releases/download/downloads/HexSwap.jsx"><img src="https://img.shields.io/badge/Download-HexSwap.jsx-2ea44f?style=for-the-badge&logo=github" alt="Download HexSwap.jsx" height="28"></a>
 
 Dockable ScriptUI panel that finds colors by hex code across a project (or across the comps/folders selected in the Project panel) and swaps them in bulk.
 
-![Hex Swap UI](HexSwap.png)
+<img src="HexSwap.png" alt="Hex Swap UI" width="562" height="1047">
 
 **What it does**
 
@@ -45,11 +45,11 @@ Built and tested on After Effects 26.3 (Windows). See [HexSwapDeveloperNotes.md]
 
 `DepthRangeSlice.jsx`
 
-[![Download DepthRangeSlice.jsx](https://img.shields.io/badge/Download-DepthRangeSlice.jsx-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/DepthRangeSlice.jsx)
+<a href="https://github.com/joshvanpraag/Tools/releases/download/downloads/DepthRangeSlice.jsx"><img src="https://img.shields.io/badge/Download-DepthRangeSlice.jsx-2ea44f?style=for-the-badge&logo=github" alt="Download DepthRangeSlice.jsx" height="28"></a>
 
 ScriptUI panel that turns a rendered depth pass into an animated reveal/slice effect.
 
-![Depth Range Slice UI](DepthRangeSlice.png)
+<img src="DepthRangeSlice.png" alt="Depth Range Slice UI" width="364" height="711">
 
 **What it does**
 
@@ -78,7 +78,7 @@ Copy `DepthRangeSlice.jsx` to `<After Effects>/Support Files/Scripts/ScriptUI Pa
 
 `ResetLayerTimeOffsets.jsx`
 
-[![Download ResetLayerTimeOffsets.jsx](https://img.shields.io/badge/Download-ResetLayerTimeOffsets.jsx-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/ResetLayerTimeOffsets.jsx)
+<a href="https://github.com/joshvanpraag/Tools/releases/download/downloads/ResetLayerTimeOffsets.jsx"><img src="https://img.shields.io/badge/Download-ResetLayerTimeOffsets.jsx-2ea44f?style=for-the-badge&logo=github" alt="Download ResetLayerTimeOffsets.jsx" height="28"></a>
 
 No-UI utility script that moves every eligible layer's start time back to 0 and extends its in/out points to fill the comp, without changing the visible timing.
 
@@ -108,11 +108,11 @@ Run once via **File > Scripts > Run Script File**, or copy `ResetLayerTimeOffset
 
 `CompStandardizer.jsx`, `CompStandardizerRun.jsx`
 
-[![Download CompStandardizer.zip](https://img.shields.io/badge/Download-CompStandardizer.zip-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/CompStandardizer.zip)
+<a href="https://github.com/joshvanpraag/Tools/releases/download/downloads/CompStandardizer.zip"><img src="https://img.shields.io/badge/Download-CompStandardizer.zip-2ea44f?style=for-the-badge&logo=github" alt="Download CompStandardizer.zip" height="28"></a>
 
 Dockable ScriptUI panel that applies a consistent set of comp, viewer, and timeline settings across every comp in a project in one pass, plus a companion no-UI runner for triggering it from KBar with the last-saved settings.
 
-![Comp Standardizer UI](CompStandardizer.png)
+<img src="CompStandardizer.png" alt="Comp Standardizer UI" width="800" height="657">
 
 **What it does**
 
@@ -132,3 +132,6 @@ Copy both files to `<After Effects>/Support Files/Scripts/ScriptUI Panels/`, res
 1. Open the panel and set your desired Comp/Timeline/Viewer options; optionally enable **File-level options** and choose which of those to apply.
 2. Click **Standardize All Comps** to run immediately, or save settings and trigger `CompStandardizerRun.jsx` later (e.g. from a KBar button) to repeat the same pass without opening the panel.
 3. Review the alert for a summary of what changed and any warnings.
+
+<!-- Spacer so the last section can scroll to the top when linked to. -->
+<img src="../.github/assets/spacer.png" width="1" height="1000" alt="">

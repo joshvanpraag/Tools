@@ -6,7 +6,7 @@
 
 `AlignParentToChild.py`
 
-[![Download AlignParentToChild.zip](https://img.shields.io/badge/Download-AlignParentToChild.zip-2ea44f?style=for-the-badge&logo=github)](https://github.com/joshvanpraag/Tools/releases/download/downloads/AlignParentToChild.zip)
+<a href="https://github.com/joshvanpraag/Tools/releases/download/downloads/AlignParentToChild.zip"><img src="https://img.shields.io/badge/Download-AlignParentToChild.zip-2ea44f?style=for-the-badge&logo=github" alt="Download AlignParentToChild.zip" height="28"></a>
 
 Re-anchors a parent object's pivot to its first child's position without disturbing any child's world-space transform.
 
@@ -26,3 +26,6 @@ Copy `AlignParentToChild.py` and `AlignParentToChild.tif` (its icon) into Cinema
 **Usage**
 
 Select the parent object (its first child defines the target position/orientation) and run the script — no UI, no dialog beyond error messages if nothing is selected or the object has no children.
+
+<!-- Spacer so the last section can scroll to the top when linked to. -->
+<img src="../.github/assets/spacer.png" width="1" height="1000" alt="">
